@@ -1,1 +1,1 @@
-# ![mini-quiz](public/mini-quiz.svg) Mini Quiz
+# ![](./public/mini-quiz.svg) Mini Quiz
