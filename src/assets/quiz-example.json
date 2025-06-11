@@ -1,0 +1,35 @@
+[
+  {
+    "type": "single",
+    "question": "What is the capital of France?",
+    "answers": [
+      { "text": "Paris", "isCorrect": true },
+      { "text": "London", "isCorrect": false },
+      { "text": "Berlin", "isCorrect": false },
+      { "text": "Madrid", "isCorrect": false }
+    ]
+  },
+  {
+    "type": "multiple",
+    "question": "Who had won the nobel prize in history?",
+    "answers": [
+      { "text": "Albert Einstein", "isCorrect": true },
+      { "text": "John J. Hopfield", "isCorrect": true },
+      { "text": "Geoffrey Hinton", "isCorrect": true },
+      { "text": "Isaac Newton", "isCorrect": false },
+      { "text": "Marie Curie", "isCorrect": false },
+      { "text": "Nikola Tesla", "isCorrect": false }
+    ]
+  },
+  {
+    "type": "fill",
+    "question": "Last weekend, I {{ 0 }} to the countryside with my friends. The weather {{ 1 }} perfect—sunny and warm. We decided to have a picnic, so we {{ 2 }} a blanket under a large oak tree. While we were eating, a stray dog suddenly {{ 3 }} and {{ 4 }} by our side, looking hopeful. We ended up sharing our snacks with it.",
+    "answers": [
+      { "id": "0", "answers": ["went"] },
+      { "id": "1", "answers": ["was"] },
+      { "id": "2", "answers": ["spread"] },
+      { "id": "3", "answers": ["appeared"] },
+      { "id": "4", "answers": ["set"] }
+    ]
+  }
+]
