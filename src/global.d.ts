@@ -4,11 +4,9 @@ declare global {
     text: string;
     isCorrect: boolean;
   };
-  type FillAnswer = {
-    id: string;
-    answers: string[];
-  };
+  type FillAnswer = string[];
   type Question<Q extends QuestionType, A extends ChoiceAnswer | FillAnswer> = {
+    id: string;
     type: Q;
     question: string;
     answers: A[];
@@ -18,6 +16,9 @@ declare global {
   type MultipleChoiceQuestion = Question<"multiple", ChoiceAnswer>;
   type FillQuestion = Question<"fill", FillAnswer>;
   type Questions = (SingleChoiceQuestion | MultipleChoiceQuestion | FillQuestion)[];
+  type QuizStatus = "inProgress" | "completed";
+  type QuestionStatus = "unanswered" | "answered" | "correct" | "incorrect";
+
 }
 
 export {};

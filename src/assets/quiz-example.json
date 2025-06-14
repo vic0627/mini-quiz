@@ -23,13 +23,7 @@
   },
   {
     "type": "fill",
-    "question": "Last weekend, I {{ 0 }} to the countryside with my friends. The weather {{ 1 }} perfect—sunny and warm. We decided to have a picnic, so we {{ 2 }} a blanket under a large oak tree. While we were eating, a stray dog suddenly {{ 3 }} and {{ 4 }} by our side, looking hopeful. We ended up sharing our snacks with it.",
-    "answers": [
-      { "id": "0", "answers": ["went"] },
-      { "id": "1", "answers": ["was"] },
-      { "id": "2", "answers": ["spread"] },
-      { "id": "3", "answers": ["appeared"] },
-      { "id": "4", "answers": ["set"] }
-    ]
+    "question": "Last weekend, I [1] to the countryside with my friends. The weather [2] perfect—sunny and warm. We decided to have a picnic, so we [3] a blanket under a large oak tree. While we were eating, a stray dog suddenly [4] and [5] by our side, looking hopeful. We ended up sharing our snacks with it.",
+    "answers": [["went"], ["was"], ["spread"], ["appeared"], ["set"]]
   }
 ]

@@ -1,6 +1,6 @@
-export default (file: File): Promise<Questions> =>
+export default (file: File | null): Promise<Questions> =>
   new Promise((resolve, reject) => {
-    if (!(file instanceof File)) reject(new TypeError("accept file only"));
+    if (!(file instanceof File)) return reject(new TypeError("accept file only"));
 
     const reader = new FileReader();
     reader.readAsText(file, "UTF-8");
