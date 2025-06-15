@@ -1,0 +1,389 @@
+[
+  {
+    "type": "single",
+    "question": "若某系統平均每 5 分鐘有 1 通電話打進來，則在 10 分鐘內至少接到 1 通電話的機率是多少？",
+    "answers": [
+      {
+        "text": "1 – e^-0.5",
+        "isCorrect": false
+      },
+      {
+        "text": "0.2e^-2",
+        "isCorrect": false
+      },
+      {
+        "text": "e^-(10/5)",
+        "isCorrect": false
+      },
+      {
+        "text": "1 – e^-2",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "若事件發生時間 T ~ Exponential(β = 4)，下列哪一個機率與「第一次事件在 8 分鐘後才發生」等價？",
+    "answers": [
+      {
+        "text": "P(X = 2), 其中 X ~ Poisson(λt = 2)",
+        "isCorrect": false
+      },
+      {
+        "text": "1 – P(X = 0)，其中 X ~ Poisson(λt = 2)",
+        "isCorrect": false
+      },
+      {
+        "text": "P(X = 1)，其中 X ~ Poisson(λt = 2)",
+        "isCorrect": false
+      },
+      {
+        "text": "P(X = 0)，其中 X ~ Poisson(λt = 2)",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "指數分佈的「無記憶性」特性代表什麼？",
+    "answers": [
+      {
+        "text": "等待的時間愈久，事件發生的機率愈高",
+        "isCorrect": false
+      },
+      {
+        "text": "不需要前一次的資料即可預測下一次事件",
+        "isCorrect": false
+      },
+      {
+        "text": "已經等了 t 單位時間，之後再等 s 單位時間與一開始等 s 單位的機率相同",
+        "isCorrect": true
+      },
+      {
+        "text": "事件發生間隔時間遵循常態分佈",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "若事件到達符合 Poisson 過程，平均每 2 分鐘發生一次，則等待第 3 次事件發生的時間分佈是？",
+    "answers": [
+      {
+        "text": "Gamma 分佈，α = 3, β = 2",
+        "isCorrect": true
+      },
+      {
+        "text": "Gamma 分佈，α = 2, β = 3",
+        "isCorrect": false
+      },
+      {
+        "text": "指數分佈，λ = 0.5",
+        "isCorrect": false
+      },
+      {
+        "text": "常態分佈，μ = 6",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "下列哪一個敘述正確描述了指數分佈與泊松分佈的關係?",
+    "answers": [
+      {
+        "text": "泊松分佈與指數分佈具有相同的平均值",
+        "isCorrect": false
+      },
+      {
+        "text": "指數分佈用於計算在固定時間內發生幾次事件的機率",
+        "isCorrect": false
+      },
+      {
+        "text": "指數分佈與泊松分佈完全無關",
+        "isCorrect": false
+      },
+      {
+        "text": "指數分佈描述兩次事件之間的時間，而泊松分佈描述固定時間內事件的次數",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "若 T ∼ Gamma(α = 2, β = 4)，下列哪一個分佈與其無法對應？",
+    "answers": [
+      {
+        "text": "兩個指數分佈(β=4)變數的總和",
+        "isCorrect": false
+      },
+      {
+        "text": "泊松過程中第 2 次事件發生時間（λ = 1/β）",
+        "isCorrect": false
+      },
+      {
+        "text": "等待第 2 次事件發生所需時間",
+        "isCorrect": false
+      },
+      {
+        "text": "等待第 4 次事件發生所需時間（每次等待 2 單位時間）",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "用常態近似求 P(X ≤ 50)，哪個轉換是正確的？設 X ~ B(100, 0.5)",
+    "answers": [
+      {
+        "text": "不需轉換，查表即可",
+        "isCorrect": false
+      },
+      {
+        "text": "P(Z ≤ (49.5 – 50)/5)",
+        "isCorrect": true
+      },
+      {
+        "text": "P(Z ≤ (50 – 50)/5)",
+        "isCorrect": false
+      },
+      {
+        "text": "P(Z ≤ (50.5 – 50)/5)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "下列哪一個敘述正確描述了指數分佈與伽瑪分佈的關係？",
+    "answers": [
+      {
+        "text": "指數分佈不能用來表示等待時間",
+        "isCorrect": false
+      },
+      {
+        "text": "伽瑪分佈只能用來描述平均值為 1 的隨機變數",
+        "isCorrect": false
+      },
+      {
+        "text": "兩者沒有數學關聯",
+        "isCorrect": false
+      },
+      {
+        "text": "指數分佈是伽瑪分佈的一種特殊情況",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "指數分佈與伽瑪分佈的下列敘述何者錯誤？",
+    "answers": [
+      {
+        "text": "Gamma 分佈是指數分佈的延伸",
+        "isCorrect": false
+      },
+      {
+        "text": "指數分佈具無記憶性",
+        "isCorrect": false
+      },
+      {
+        "text": "所有伽瑪分佈都具無記憶性",
+        "isCorrect": true
+      },
+      {
+        "text": "伽瑪分佈可以看成是多個指數分佈變數的總和",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "若 X ~ B(100, 0.9)，可以使用常態分布來近似嗎？",
+    "answers": [
+      {
+        "text": "不可以，因為標準差太小",
+        "isCorrect": false
+      },
+      {
+        "text": "不可以，因為 p 太大",
+        "isCorrect": false
+      },
+      {
+        "text": "可以，因為 np 和 n(1–p) 都 ≥ 5",
+        "isCorrect": true
+      },
+      {
+        "text": "可以，因為 n > 30",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "若某隨機變數 T ∼ Gamma(α = 3, β = 2)，表示的是什麼意思？",
+    "answers": [
+      {
+        "text": "平均 3 單位時間內發生一次事件",
+        "isCorrect": false
+      },
+      {
+        "text": "發生事件的總數為 3 次",
+        "isCorrect": false
+      },
+      {
+        "text": "等待 3 次事件，每次平均需 2 單位時間",
+        "isCorrect": true
+      },
+      {
+        "text": "第一次事件的等待時間為 2",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "fill",
+    "question": "600 名學生在考試中通過的機率為 0.40。設 X 為通過的學生人數的隨機變數，遵循二項式分佈 X~Binominal(n, p)，回答下列問題：<br>(1) 學生基本資料<br>\t(A) 學生通過考試的平均人數 [1]<br>\t(B) 學生通過考試人數的變異數 [2]<br>(2) 求 P(215 ≤ X ≤ 250)<br>使用常態近似球機率值<br>* 使用連續修正 P(214.5<X<250.5)<br>* 對應的 Z 值 P(Z1 < Z <Z2) (請填浮點數)<br>其中 Z1 = [3]，Z2 = [4]<br>查標準常態表（可使用表附下）得：<br>P(Z<Z2​)= [5]<br>P(Z<Z1​)= [6]<br>所以 P(215≤X≤250)= [7]<br>標準常態分佈查表<br><img src=\"https://iclass.tku.edu.tw/api/uploads/21863025/in-rich-content?created_at=2025-06-05T04:09:13Z\"><br><img src=\"https://iclass.tku.edu.tw/api/uploads/21863031/in-rich-content?created_at=2025-06-05T04:09:51Z\">",
+    "answers": [
+      "240",
+      "144",
+      "-2.125",
+      "0.875",
+      "0.8092",
+      "0.0168",
+      "0.7924"
+    ]
+  },
+  {
+    "type": "single",
+    "question": "若事件發生遵循 Poisson 過程，平均每小時有 6 起事件，則第一次事件發生時間的分佈為？",
+    "answers": [
+      {
+        "text": "Poisson(6)",
+        "isCorrect": false
+      },
+      {
+        "text": "Normal(6, 1)",
+        "isCorrect": false
+      },
+      {
+        "text": "Exponential(β = 1/6)",
+        "isCorrect": true
+      },
+      {
+        "text": "Uniform(0, 6)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "設 X ~ B(200, 0.5)，若要計算 P(X = 100) 時，應如何近似？",
+    "answers": [
+      {
+        "text": "用 P(100.5 < X < 101.5)",
+        "isCorrect": false
+      },
+      {
+        "text": "用 P(X = 100.5)",
+        "isCorrect": false
+      },
+      {
+        "text": "直接算 P(Z = 0)",
+        "isCorrect": false
+      },
+      {
+        "text": "用 P(99.5 < X < 100.5)",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "當使用常態分佈近似二項分佈時，需進行哪一項修正？",
+    "answers": [
+      {
+        "text": "標準化修正",
+        "isCorrect": false
+      },
+      {
+        "text": "指數變換修正",
+        "isCorrect": false
+      },
+      {
+        "text": "離散→連續修正（continuity correction）",
+        "isCorrect": true
+      },
+      {
+        "text": "標準差修正",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "fill",
+    "question": "在某火車櫃檯，一個人平均花 3 分鐘完成預訂，服務時間服從指數分佈。請回答下列問題：<br>Step 1：定義指數分佈參數 λ 服務時間 𝑇 ∼ Exponential ( 𝜆 ) ， 平均完成預定時間 = 3 分鐘 →  𝜆= [1]<br>Step 2：計算一個人在 3 分鐘內完成預訂的機率 P(T ≤ 3)= [2]<br>Step 3：設定二項分佈模型 設 X 為「在 5 個人中，在 3 分鐘內完成預訂的人數」， 則 𝑋 ∼ Binomial ( 𝑛 = [3] , 𝑝 = [4] ) <br>Step4：在排隊的 5 個人中，至少有 4 個人在 3 分鐘內完成預訂的機率是多少?也就是 求 P(X ≥ [5] ) = P(X = 4 + P(X =5)<br>常用自然常數值<br><img src=\"https://iclass.tku.edu.tw/api/uploads/21865037/in-rich-content?created_at=2025-06-05T06:24:09Z\">",
+    "answers": [
+      [
+        "1/3",
+        "0.333"
+      ],
+      [
+        "0.6321"
+      ],
+      [
+        "5"
+      ],
+      [
+        "0.6321"
+      ],
+      [
+        "4"
+      ]
+    ]
+  },
+  {
+    "type": "single",
+    "question": "下列何者是二項分布可以用常態分布近似的必要條件？",
+    "answers": [
+      {
+        "text": "p = 0.5",
+        "isCorrect": false
+      },
+      {
+        "text": "樣本標準差為整數",
+        "isCorrect": false
+      },
+      {
+        "text": "n > 10",
+        "isCorrect": false
+      },
+      {
+        "text": "np ≥ 5 且 n(1–p) ≥ 5",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "若 X ~ B(400, 0.3)，請問其近似常態分佈的 μ 與 σ 為？",
+    "answers": [
+      {
+        "text": "μ = 120，σ ≈ 9.49",
+        "isCorrect": true
+      },
+      {
+        "text": "μ = 300，σ = 20",
+        "isCorrect": false
+      },
+      {
+        "text": "μ = 100，σ = 30",
+        "isCorrect": false
+      },
+      {
+        "text": "μ = 400，σ = 0.3",
+        "isCorrect": false
+      }
+    ]
+  }
+]

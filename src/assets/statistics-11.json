@@ -1,0 +1,277 @@
+[
+  {
+    "type": "single",
+    "question": "常態分布 N(μ,σ²) 的對稱軸是：",
+    "answers": [
+      {
+        "text": "x=μ",
+        "isCorrect": true
+      },
+      {
+        "text": "x=σ",
+        "isCorrect": false
+      },
+      {
+        "text": "x=0",
+        "isCorrect": false
+      },
+      {
+        "text": "x=μ/σ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "fill",
+    "question": "某公司每小時電費平均花費 18.60 美元，標準差為 1.80 美元。如果電費近似常態分佈並支付到最接近的分（1/100 元），根據查表法，請回答下列問題：<br>(a) 電費少於 16.50 元的 Z 值為： [1]<br>(b) 電費少於 16.50 元的百分比約為： [2]<br>(c) 根據查表的資料，若要找出最低 10% 的電費金額，標準 Z 值為： [3]<br>(d) 延續上題，電費的最低 10% 是多少? [4]<br>提供適當查表資料<img src=\"https://iclass.tku.edu.tw/api/uploads/21795856/in-rich-content?created_at=2025-05-29T23:37:46Z\">",
+    "answers": [
+      [
+        "-1.17"
+      ],
+      [
+        "0.1210",
+        "12.1%"
+      ],
+      [
+        "-1.28"
+      ],
+      [
+        "16.30",
+        "16.30美元"
+      ]
+    ]
+  },
+  {
+    "type": "single",
+    "question": "若 P(Z > k)=0.0228，則 k 的值為？<br>查表提示：<br><img src=\"https://iclass.tku.edu.tw/api/uploads/21794806/in-rich-content?created_at=2025-05-29T15:42:43Z\">",
+    "answers": [
+      {
+        "text": "1.96",
+        "isCorrect": false
+      },
+      {
+        "text": "2.33",
+        "isCorrect": false
+      },
+      {
+        "text": "1.50",
+        "isCorrect": false
+      },
+      {
+        "text": "2.00",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "設 X∼Uniform(0,10)，則 P(3 ≤ X ≤ 7) 的值為：",
+    "answers": [
+      {
+        "text": "0.5",
+        "isCorrect": false
+      },
+      {
+        "text": "0.7",
+        "isCorrect": false
+      },
+      {
+        "text": "0.4",
+        "isCorrect": true
+      },
+      {
+        "text": "0.3",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "fill",
+    "question": "給定一個標準常態分佈，根據查表法，求位於曲線下的面積：(答案請給到小數點第四位)<br>(a) 在 z = 1.645 的右邊面積為 [1] ；<br>(b) 在 z = –2.43 和 –0.45 之間面積為 [2] ； <br>(c) 在 z = –0.45 的右邊面積為 [3] ；<br>(d) 在 z = –0.45 和 z = 0.45 之間面積為 [4]<br>標準常態表<br><img src=\"https://iclass.tku.edu.tw/api/uploads/21795845/in-rich-content?created_at=2025-05-29T23:17:47Z\"",
+    "answers": [
+      [
+        "0.0500",
+        "0.05"
+      ],
+      [
+        "0.3189"
+      ],
+      [
+        "0.6736"
+      ],
+      [
+        "0.3472"
+      ]
+    ]
+  },
+  {
+    "type": "single",
+    "question": "若隨機變數 X 服從區間 [2,5] 上的連續均勻分佈，其機率密度函數（PDF）在 x=4 處的值為：",
+    "answers": [
+      {
+        "text": "1/5",
+        "isCorrect": false
+      },
+      {
+        "text": "1/3",
+        "isCorrect": true
+      },
+      {
+        "text": "0",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "標準常態分佈 Z∼N(0,1)，求 P(Z ≤ 1.25) 的值為多少？<br>提供查表資料：<br><img src=\"https://iclass.tku.edu.tw/api/uploads/21794531/in-rich-content?created_at=2025-05-29T14:59:55Z\">",
+    "answers": [
+      {
+        "text": "0.8944",
+        "isCorrect": true
+      },
+      {
+        "text": "0.9772",
+        "isCorrect": false
+      },
+      {
+        "text": "0.9332",
+        "isCorrect": false
+      },
+      {
+        "text": "0.9938",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "fill",
+    "question": "火車每 15 分鐘到達某一車站。假設小明的等待時間是具有連續均勻分佈的隨機變數。請回答下列問題：<br>1, 小明等待的時間服從的分佈為：X∼​Uniform( [1] , [2] ) (請填數字)<br>2. 小明等待時間超過 10 分鐘的機率為： P(X > 10)= [3]<br>3. 小明等待時間介於 6 到 12 分鐘的機率為： P(6 ≤ X ≤ 12)= [4]",
+    "answers": [
+      [
+        "0"
+      ],
+      [
+        "15"
+      ],
+      [
+        "1/3",
+        "0.333"
+      ],
+      [
+        "0.4",
+        "6/15"
+      ]
+    ]
+  },
+  {
+    "type": "single",
+    "question": "某考試成績 X∼N(75,16)，求 P(X > 80) 的值？<br>查表提示：<br><img src=\"https://iclass.tku.edu.tw/api/uploads/21794748/in-rich-content?created_at=2025-05-29T15:33:45Z\">",
+    "answers": [
+      {
+        "text": "0.1056",
+        "isCorrect": true
+      },
+      {
+        "text": "0.1587",
+        "isCorrect": false
+      },
+      {
+        "text": "0.3085",
+        "isCorrect": false
+      },
+      {
+        "text": "0.2266",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "若 X∼N(100,16)，則 P(92 ≤ X ≤ 108) 等於：",
+    "answers": [
+      {
+        "text": "P(−1 ≤ Z ≤1)",
+        "isCorrect": false
+      },
+      {
+        "text": "P(−4 ≤ Z ≤ 4)",
+        "isCorrect": false
+      },
+      {
+        "text": "P(−2 ≤ Z ≤ 2)",
+        "isCorrect": true
+      },
+      {
+        "text": "P(−3 ≤ Z ≤ 3)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "連續均勻分布 Uniform(a,b) 的變異數為：",
+    "answers": [
+      {
+        "text": "(a+b)/2",
+        "isCorrect": false
+      },
+      {
+        "text": "(a-b)²/4",
+        "isCorrect": false
+      },
+      {
+        "text": "(b-a)/2",
+        "isCorrect": false
+      },
+      {
+        "text": "(b-a)²/12",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "若 X∼N(50,25)，則 P(X>55) 等於：",
+    "answers": [
+      {
+        "text": "P(Z>1.5)",
+        "isCorrect": false
+      },
+      {
+        "text": "P(Z>2)",
+        "isCorrect": false
+      },
+      {
+        "text": "P(Z>1)",
+        "isCorrect": true
+      },
+      {
+        "text": "P(Z>0.5)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "已知 P(0≤Z≤1)≈0.3413，則 P(−1≤Z≤1) 的值為：",
+    "answers": [
+      {
+        "text": "0.9544",
+        "isCorrect": false
+      },
+      {
+        "text": "0.9974",
+        "isCorrect": false
+      },
+      {
+        "text": "0.6826",
+        "isCorrect": true
+      },
+      {
+        "text": "0.3413",
+        "isCorrect": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,333 @@
+[
+  {
+    "type": "single",
+    "question": "柴⽐雪夫定理適⽤於下列何種機率分佈：",
+    "answers": [
+      {
+        "text": "僅常態分佈",
+        "isCorrect": false
+      },
+      {
+        "text": "任意分佈",
+        "isCorrect": true
+      },
+      {
+        "text": "僅離散分佈",
+        "isCorrect": false
+      },
+      {
+        "text": "僅對稱分佈",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "柴⽐雪夫定理對任何機率分佈均適⽤"
+  },
+  {
+    "type": "single",
+    "question": "下列敘述何者正確？",
+    "answers": [
+      {
+        "text": "Cov(X,Y)=0 表⽰ X 與 Y ⼀定獨⽴",
+        "isCorrect": false
+      },
+      {
+        "text": "Var(X+Y)=Var(X)+Var(Y) ⇒ X 與 Y 不相關",
+        "isCorrect": false
+      },
+      {
+        "text": "X 與 Y 獨立 ⇒ Cov(X,Y)=0",
+        "isCorrect": true
+      },
+      {
+        "text": "E[XY]=E[X]+E[Y] ⇒ X 與 Y 獨立",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "若 Z=2X+3Y，X、Y 獨⽴，Var(X)=1，Var(Y)=2，Var(Z)=？",
+    "answers": [
+      {
+        "text": "26",
+        "isCorrect": false
+      },
+      {
+        "text": "22",
+        "isCorrect": true
+      },
+      {
+        "text": "10",
+        "isCorrect": false
+      },
+      {
+        "text": "14",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Var(Z)=4×1+9×2=22"
+  },
+  {
+    "type": "single",
+    "question": "Var(X)=4，Var(Y)=9，Cov(X,Y)=−2，Var(3X−2Y)=？",
+    "answers": [
+      {
+        "text": "64",
+        "isCorrect": false
+      },
+      {
+        "text": "40",
+        "isCorrect": false
+      },
+      {
+        "text": "88",
+        "isCorrect": true
+      },
+      {
+        "text": "52",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "X 和 Y 獨⽴，E(X)=3，E(Y)=5，E(2X−3Y+1)=？",
+    "answers": [
+      {
+        "text": "8",
+        "isCorrect": false
+      },
+      {
+        "text": "10",
+        "isCorrect": false
+      },
+      {
+        "text": "-8",
+        "isCorrect": true
+      },
+      {
+        "text": "-10",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "2×3 − 3×5 + 1 = −8"
+  },
+  {
+    "type": "single",
+    "question": "Cov(X,Y)=5，σX=2，σY=3，ρXY = ?",
+    "answers": [
+      {
+        "text": "5/6",
+        "isCorrect": true
+      },
+      {
+        "text": "6/5",
+        "isCorrect": false
+      },
+      {
+        "text": "3/2",
+        "isCorrect": false
+      },
+      {
+        "text": "3/2",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "若 ρXY=0.8，σX=2，σY=5，Cov(X,Y)=？",
+    "answers": [
+      {
+        "text": "8",
+        "isCorrect": true
+      },
+      {
+        "text": "4",
+        "isCorrect": false
+      },
+      {
+        "text": "20",
+        "isCorrect": false
+      },
+      {
+        "text": "10",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "若 X 和 Y 獨立，則其共變異數 Cov(X,Y) 為：",
+    "answers": [
+      {
+        "text": "0",
+        "isCorrect": true
+      },
+      {
+        "text": "σX σY",
+        "isCorrect": false
+      },
+      {
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "text": "無法確定",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "若 Cov(X,Y)=−1，σX=1，σY=2，則 ρXY 為：",
+    "answers": [
+      {
+        "text": "-0.5",
+        "isCorrect": true
+      },
+      {
+        "text": "-1",
+        "isCorrect": false
+      },
+      {
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "text": "0.5",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "fill",
+    "question": "一電氣公司製造 100 瓦的燈泡，包裝上註明燈泡平均使用壽命為 800 小時，標準差 50 小時。假設其燈泡使用壽命的分佈對稱於其平均值，請回答下列問題：<br>1. 700 小時與平均壽命相差了 [1] 個小時，相當於 [2] 個標準差。<br>2. 根據柴比雪夫定理，距離平均值 2 個標準差以外的燈泡壽命最多佔 [3] ％。<br>3. 由於分佈對稱，則壽命低於 700 小時的燈泡最多佔 [4] ％。",
+    "answers": [
+      "100",
+      "2",
+      "25",
+      "12.5"
+    ]
+  },
+  {
+    "type": "single",
+    "question": "若 P(|X−μ| < kσ) ≥ 0.75，則 k 應為：",
+    "answers": [
+      {
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "text": "3",
+        "isCorrect": false
+      },
+      {
+        "text": "4",
+        "isCorrect": false
+      },
+      {
+        "text": "2",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "若 X 的期望值 μ=10，變異數 σ²=16，則 P(|X−10| ≥ 8 ) 的上限為：",
+    "answers": [
+      {
+        "text": "0.25",
+        "isCorrect": true
+      },
+      {
+        "text": "0.75",
+        "isCorrect": false
+      },
+      {
+        "text": "0.1",
+        "isCorrect": false
+      },
+      {
+        "text": "0.5",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "若 E(XY)=12，E(X)=3，E(Y)=4，則 Cov(X,Y) 為：",
+    "answers": [
+      {
+        "text": "12",
+        "isCorrect": false
+      },
+      {
+        "text": "-12",
+        "isCorrect": false
+      },
+      {
+        "text": "24",
+        "isCorrect": false
+      },
+      {
+        "text": "0",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "若 X 的變異數為 0，則 X 必為：",
+    "answers": [
+      {
+        "text": "指數分佈",
+        "isCorrect": false
+      },
+      {
+        "text": "對稱分佈",
+        "isCorrect": false
+      },
+      {
+        "text": "常數",
+        "isCorrect": true
+      },
+      {
+        "text": "均勻分佈",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "fill",
+    "question": "令 X 為一離散隨機變數，其機率分佈如下：<br><img src=\"https://iclass.tku.edu.tw/api/uploads/21550868/in-rich-content?created_at=2025-05-01T03:57:13Z\"><br>請回答下列問題：<br>1. 計算 E(X)= [1]<br>2. 計算 E(X2)= [2]<br>3. 利用上述結果，估算 E[(2X+1)2]= [3]<br>4. 計算 X 的變異數  Var(X)= [4]",
+    "answers": [
+      "6",
+      "54",
+      "241",
+      "18"
+    ]
+  },
+  {
+    "type": "single",
+    "question": "柴⽐雪夫定理指出，P(|X−μ| ≥ kσ) 的機率上限為：",
+    "answers": [
+      {
+        "text": "k",
+        "isCorrect": false
+      },
+      {
+        "text": "1/k",
+        "isCorrect": false
+      },
+      {
+        "text": "1/k²",
+        "isCorrect": true
+      },
+      {
+        "text": "1-1/k²",
+        "isCorrect": false
+      }
+    ]
+  }
+]

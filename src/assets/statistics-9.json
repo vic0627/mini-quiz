@@ -1,0 +1,365 @@
+[
+  {
+    "type": "single",
+    "question": "下列哪⼀個敘述最符合超幾何分佈的特性?",
+    "answers": [
+      {
+        "text": "抽樣後放回，每次事件獨⽴",
+        "isCorrect": false
+      },
+      {
+        "text": "每次試驗的機率固定不變",
+        "isCorrect": false
+      },
+      {
+        "text": "成功或失敗的機率由 p 控制",
+        "isCorrect": false
+      },
+      {
+        "text": "抽樣不放回，樣本間無獨立性",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "超幾何分佈⽤於「不放回抽樣」，樣本間不獨⽴。"
+  },
+  {
+    "type": "single",
+    "question": "下列哪個分佈可視為⼆項式分佈在不放回抽樣下的對應？",
+    "answers": [
+      {
+        "text": "常態分佈",
+        "isCorrect": false
+      },
+      {
+        "text": "指數分佈",
+        "isCorrect": false
+      },
+      {
+        "text": "幾何分佈",
+        "isCorrect": false
+      },
+      {
+        "text": "超幾何分佈",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "⼆項分佈最適⽤的實驗情境為？",
+    "answers": [
+      {
+        "text": "不放回抽樣",
+        "isCorrect": false
+      },
+      {
+        "text": "每次試驗固定成功機率，試驗次數固定",
+        "isCorrect": true
+      },
+      {
+        "text": "每次成功機率變動",
+        "isCorrect": false
+      },
+      {
+        "text": "試驗次數未知",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "超幾何分佈需要有幾個參數來描述？",
+    "answers": [
+      {
+        "text": "3",
+        "isCorrect": true
+      },
+      {
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "text": "4",
+        "isCorrect": false
+      },
+      {
+        "text": "2",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "若 X ∼ Bin(n=4, p=0.75)，則 P(X=2) 是？",
+    "answers": [
+      {
+        "text": "0.625",
+        "isCorrect": false
+      },
+      {
+        "text": "0.2109",
+        "isCorrect": true
+      },
+      {
+        "text": "0.8",
+        "isCorrect": false
+      },
+      {
+        "text": "0.5",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "⼆項分佈的變異數 σ² 是？",
+    "answers": [
+      {
+        "text": "√np",
+        "isCorrect": false
+      },
+      {
+        "text": "n × q",
+        "isCorrect": false
+      },
+      {
+        "text": "npq",
+        "isCorrect": true
+      },
+      {
+        "text": "n − pq",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "fill",
+    "question": "從 52 張撲克牌中隨機發出 7 張牌的隨機實驗中，請回答下列問題：<br>1. 標準撲克牌中，人面牌（J、Q、K）總共有 [1] 張。<br>2. 假設隨機變數 X 為抽到的人面牌數，則 X∼Hyper( [2] , [3] , [4] )。<br>3.求抽出的 7 張中，至少一張是 Q（皇后） 的機率為：P(至少一張 Q)=1-[C( [5] ,7)/C(52,7)]。",
+    "answers": [
+      "12",
+      "52",
+      "12",
+      "7",
+      "48"
+    ]
+  },
+  {
+    "type": "single",
+    "question": "若⽤程式計算⼆項分佈，可使⽤ Python 的哪個模組？",
+    "answers": [
+      {
+        "text": "math",
+        "isCorrect": false
+      },
+      {
+        "text": "numpy",
+        "isCorrect": false
+      },
+      {
+        "text": "scipy.stats",
+        "isCorrect": true
+      },
+      {
+        "text": "random",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "哪⼀項是⽩努利試驗的特性？",
+    "answers": [
+      {
+        "text": "每次試驗結果皆相同",
+        "isCorrect": false
+      },
+      {
+        "text": "每次試驗皆互依",
+        "isCorrect": false
+      },
+      {
+        "text": "試驗次數無限",
+        "isCorrect": false
+      },
+      {
+        "text": "每次試驗只有兩種可能結果",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "多項式分佈與⼆項分佈的主要差異為？",
+    "answers": [
+      {
+        "text": "成功機率是否固定",
+        "isCorrect": false
+      },
+      {
+        "text": "是否為連續變數",
+        "isCorrect": false
+      },
+      {
+        "text": "是否為離散分佈",
+        "isCorrect": false
+      },
+      {
+        "text": "每次實驗結果的種類數量",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "⼆項分佈的平均值 μ 是？",
+    "answers": [
+      {
+        "text": "n + p",
+        "isCorrect": false
+      },
+      {
+        "text": "n/p",
+        "isCorrect": false
+      },
+      {
+        "text": "n − p",
+        "isCorrect": false
+      },
+      {
+        "text": "np",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "type": "fill",
+    "question": "某城市中，75% 的盜竊案件與毒品購買需求有關。若隨機觀察該城市的 5 起盜竊案件：<br>1. 若隨機變數 X 為毒品相關的案件數，則 X∼Bin( [1] , [2] )。<br>2. 求正好有 2 件是毒品相關的案件的機率為：P(X=2)=C(5,2)( [3] )^2( [4] )^3。",
+    "answers": [
+      [
+        "5"
+      ],
+      [
+        "0.75",
+        "3/4"
+      ],
+      [
+        "0.75",
+        "3/4"
+      ],
+      [
+        "0.25",
+        "1/4"
+      ]
+    ]
+  },
+  {
+    "type": "single",
+    "question": "⽩努利實驗當中，若成功機率為 p，失敗機率為？",
+    "answers": [
+      {
+        "text": "1 − p",
+        "isCorrect": true
+      },
+      {
+        "text": "1 + p",
+        "isCorrect": false
+      },
+      {
+        "text": "0",
+        "isCorrect": false
+      },
+      {
+        "text": "p",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "抽取瑕疵品的實驗屬於哪種分佈？",
+    "answers": [
+      {
+        "text": "⼆項式分佈",
+        "isCorrect": false
+      },
+      {
+        "text": "幾何分佈",
+        "isCorrect": false
+      },
+      {
+        "text": "負⼆項分佈",
+        "isCorrect": false
+      },
+      {
+        "text": "超幾何分佈",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "多項式實驗中，所有類別次數總和應為？",
+    "answers": [
+      {
+        "text": "無限制",
+        "isCorrect": false
+      },
+      {
+        "text": "≤ n",
+        "isCorrect": false
+      },
+      {
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "text": "n",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "超幾何分佈與⼆項分佈的主要差異為？",
+    "answers": [
+      {
+        "text": "超幾何適⽤於有放回抽樣",
+        "isCorrect": false
+      },
+      {
+        "text": "⼆項不能計算成功機率",
+        "isCorrect": false
+      },
+      {
+        "text": "超幾何是連續分佈，⼆項是離散分佈",
+        "isCorrect": false
+      },
+      {
+        "text": "超幾何適⽤於不放回抽樣",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "⼆項式分佈的隨機變數 X 代表什麼？",
+    "answers": [
+      {
+        "text": "試驗次數",
+        "isCorrect": false
+      },
+      {
+        "text": "連續變數",
+        "isCorrect": false
+      },
+      {
+        "text": "成功總次數",
+        "isCorrect": true
+      },
+      {
+        "text": "成功的機率",
+        "isCorrect": false
+      }
+    ]
+  }
+]

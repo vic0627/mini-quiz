@@ -7,7 +7,8 @@
       { "text": "London", "isCorrect": false },
       { "text": "Berlin", "isCorrect": false },
       { "text": "Madrid", "isCorrect": false }
-    ]
+    ],
+    "explanation": "Paris has been the capital of France since the late 10th century, developing into the country’s political, cultural, and economic center, and earning the nickname “City of Light” in the 19th century." 
   },
   {
     "type": "multiple",
@@ -19,11 +20,13 @@
       { "text": "Isaac Newton", "isCorrect": false },
       { "text": "Marie Curie", "isCorrect": false },
       { "text": "Nikola Tesla", "isCorrect": false }
-    ]
+    ],
+    "explanation": "Einstein won the 1921 Nobel Prize in Physics. John Hopfield and Geoffrey Hinton jointly received the 2024 Nobel Prize in Physics for foundational discoveries that underpin modern machine learning and neural networks."
   },
   {
     "type": "fill",
     "question": "Last weekend, I [1] to the countryside with my friends. The weather [2] perfect—sunny and warm. We decided to have a picnic, so we [3] a blanket under a large oak tree. While we were eating, a stray dog suddenly [4] and [5] by our side, looking hopeful. We ended up sharing our snacks with it.",
-    "answers": [["went"], ["was"], ["spread"], ["appeared"], ["set"]]
+    "answers": [["went"], ["was"], ["spread"], ["appeared"], ["set"]],
+    "explanation": "Context clues indicate a past event: “went” for traveling, “was” describes weather, “spread” a blanket, “appeared” for the dog’s arrival, and “set” to place the blanket." 
   }
 ]

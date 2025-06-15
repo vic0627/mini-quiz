@@ -1,0 +1,373 @@
+[
+  {
+    "question": "多變數超幾何分佈的情境通常具備什麼特性？",
+    "answers": [
+      {
+        "text": "放回抽樣",
+        "isCorrect": false
+      },
+      {
+        "text": "機率改變的重複試驗",
+        "isCorrect": false
+      },
+      {
+        "text": "不放回抽樣且分類固定",
+        "isCorrect": true
+      },
+      {
+        "text": "成功與失敗只有兩類",
+        "isCorrect": false
+      }
+    ],
+    "type": "single"
+  },
+  {
+    "question": "哪⼀個應⽤最適合⽤多變數超幾何分佈模型？",
+    "answers": [
+      {
+        "text": "丟硬幣直到第⼀次成功",
+        "isCorrect": false
+      },
+      {
+        "text": "抽撲克牌得到不同花⾊的機率",
+        "isCorrect": true
+      },
+      {
+        "text": "每⼩時顧客數的機率",
+        "isCorrect": false
+      },
+      {
+        "text": "測試⼀批產品有無瑕疵",
+        "isCorrect": false
+      }
+    ],
+    "type": "single"
+  },
+  {
+    "question": "負⼆項分佈⽤來描述什麼情境？",
+    "answers": [
+      {
+        "text": "固定次數內成功的次數",
+        "isCorrect": false
+      },
+      {
+        "text": "成功前失敗的次數",
+        "isCorrect": false
+      },
+      {
+        "text": "第 k 次成功發⽣在第 x 次試驗",
+        "isCorrect": true
+      },
+      {
+        "text": "固定比例的分類問題",
+        "isCorrect": false
+      }
+    ],
+    "type": "single"
+  },
+  {
+    "question": "幾何分佈是負⼆項分佈的哪種特例？",
+    "answers": [
+      {
+        "text": "當成功機率為 0.5 時",
+        "isCorrect": false
+      },
+      {
+        "text": "當成功次數 k=1 時",
+        "isCorrect": true
+      },
+      {
+        "text": "當樣本數為無限⼤時",
+        "isCorrect": false
+      },
+      {
+        "text": "當失敗次數為 0 時",
+        "isCorrect": false
+      }
+    ],
+    "type": "single"
+  },
+  {
+    "question": "幾何分佈的期望值為？",
+    "answers": [
+      {
+        "text": "1/p",
+        "isCorrect": true
+      },
+      {
+        "text": "np",
+        "isCorrect": false
+      },
+      {
+        "text": "λ",
+        "isCorrect": false
+      },
+      {
+        "text": "p/(1-p)",
+        "isCorrect": false
+      }
+    ],
+    "type": "single"
+  },
+  {
+    "question": "若事件成功機率為 0.2，想知道第 4 次試驗為第⼀次成功，應使⽤哪⼀分佈？",
+    "answers": [
+      {
+        "text": "⼆項分佈",
+        "isCorrect": false
+      },
+      {
+        "text": "幾何分佈",
+        "isCorrect": true
+      },
+      {
+        "text": "⼘瓦松分佈",
+        "isCorrect": false
+      },
+      {
+        "text": "均勻分佈",
+        "isCorrect": false
+      }
+    ],
+    "type": "single"
+  },
+  {
+    "question": "⼘⽡松分佈的關鍵參數為？",
+    "answers": [
+      {
+        "text": "成功次數",
+        "isCorrect": false
+      },
+      {
+        "text": "試驗次數",
+        "isCorrect": false
+      },
+      {
+        "text": "單位時間或空間內的平均發⽣率",
+        "isCorrect": true
+      },
+      {
+        "text": "分類的總數",
+        "isCorrect": false
+      }
+    ],
+    "type": "single"
+  },
+  {
+    "question": "⼘⽡松分佈適⽤於什麼場景？",
+    "answers": [
+      {
+        "text": "撲克牌抽樣",
+        "isCorrect": false
+      },
+      {
+        "text": "投幣試驗",
+        "isCorrect": false
+      },
+      {
+        "text": "統計顧客每分鐘到店⼈數",
+        "isCorrect": true
+      },
+      {
+        "text": "固定樣本比例問題",
+        "isCorrect": false
+      }
+    ],
+    "type": "single"
+  },
+  {
+    "question": "⼘⽡松分佈的期望值與變異數為？",
+    "answers": [
+      {
+        "text": "λ 和 λ²",
+        "isCorrect": false
+      },
+      {
+        "text": "λ 和 λ",
+        "isCorrect": true
+      },
+      {
+        "text": "μ 和 σ²",
+        "isCorrect": false
+      },
+      {
+        "text": "np 和 np(1-p)",
+        "isCorrect": false
+      }
+    ],
+    "type": "single"
+  },
+  {
+    "question": "若 p 很⼩、n 很⼤，且 np 固定時，哪個分佈可以近似使⽤⼘⽡松分佈？",
+    "answers": [
+      {
+        "text": "幾何分佈",
+        "isCorrect": false
+      },
+      {
+        "text": "多項分佈",
+        "isCorrect": false
+      },
+      {
+        "text": "⼆項分佈",
+        "isCorrect": true
+      },
+      {
+        "text": "常態分佈",
+        "isCorrect": false
+      }
+    ],
+    "type": "single"
+  },
+  {
+    "question": "負⼆項分佈中，成功次數為 k 時，其公式中的次數 x 的下限為？",
+    "answers": [
+      {
+        "text": "0",
+        "isCorrect": false
+      },
+      {
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "text": "k",
+        "isCorrect": true
+      },
+      {
+        "text": "無限制",
+        "isCorrect": false
+      }
+    ],
+    "type": "single"
+  },
+  {
+    "question": "若某⼈平均每⼩時收到 4 通簡訊，則 1 ⼩時收到 6 通的機率應⽤哪⼀分佈？",
+    "answers": [
+      {
+        "text": "⼆項分佈",
+        "isCorrect": false
+      },
+      {
+        "text": "幾何分佈",
+        "isCorrect": false
+      },
+      {
+        "text": "⼘瓦松分佈",
+        "isCorrect": true
+      },
+      {
+        "text": "均勻分佈",
+        "isCorrect": false
+      }
+    ],
+    "type": "single"
+  },
+  {
+    "question": "若從 52 張撲克牌中抽 7 張，其中恰有 2 張⼈⾯牌，應⽤哪個分佈？",
+    "answers": [
+      {
+        "text": "多項分佈",
+        "isCorrect": false
+      },
+      {
+        "text": "超幾何分佈",
+        "isCorrect": true
+      },
+      {
+        "text": "幾何分佈",
+        "isCorrect": false
+      },
+      {
+        "text": "⼆項分佈",
+        "isCorrect": false
+      }
+    ],
+    "type": "single"
+  },
+  {
+    "question": "在多變數超幾何分佈中，分母表⽰？",
+    "answers": [
+      {
+        "text": "分類總數",
+        "isCorrect": false
+      },
+      {
+        "text": "抽樣總數",
+        "isCorrect": false
+      },
+      {
+        "text": "所有類別抽樣的總組合數",
+        "isCorrect": true
+      },
+      {
+        "text": "抽樣失敗次數",
+        "isCorrect": false
+      }
+    ],
+    "type": "single"
+  },
+  {
+    "question": "若每分鐘平均有 3 位客⼾上⾨，10 分鐘內 0 位的機率為？",
+    "answers": [
+      {
+        "text": "e^-30",
+        "isCorrect": true
+      },
+      {
+        "text": "e^-3",
+        "isCorrect": false
+      },
+      {
+        "text": "e^-1",
+        "isCorrect": false
+      },
+      {
+        "text": "e^-10",
+        "isCorrect": false
+      }
+    ],
+    "type": "single"
+  },
+  {
+    "question": "三個人輪流擲一枚公平硬幣（正反機率均為 0.5），若結果有一人與另外兩人不同，則該人請咖啡；若三人結果都一樣，則重新擲，直到產生請客結果為止。請回答下列問題：<br>Q1. 每次擲硬幣時，共有幾種可能的結果組合？ 答： [1] 種 （提示：三人各有 H 或 T 兩種結果）<br>Q2. 哪些結果會導致「重新擲」？請寫出所有情況。答：HHH, TTT<br>Q3. 發生「結果不同」的機率為多少？答： [2] (分數或小數形式均可）（提示：不是三人都相同時即為請客結果）<br>Q4. 每次擲硬幣成功結束（出現一人不同）的機率為？答： [3]<br>Q5. 求在兩次內擲出請客結果的機率（少於 3 次）為多少？答： [4] (提示：第一次成功或第二次成功",
+    "answers": [
+      [
+        "8"
+      ],
+      [
+        "3/4",
+        "0.75"
+      ],
+      [
+        "3/4",
+        "0.75"
+      ],
+      [
+        "15/16",
+        "0.9375"
+      ]
+    ],
+    "type": "fill"
+  },
+  {
+    "question": "某位科學家一次為一隻老鼠注射細菌，每隻老鼠獨立感染疾病的機率為 1/6​。他會持續注射，直到有兩隻老鼠發病為止。請回答下列問題：<br>Q1. 這是一種哪類機率分佈？請填入分佈名稱：答： [1] 分佈（提示：成功固定、試驗次數變動）<br>Q2. 若成功機率為 p=1/6​，發病次數為 r=2，第 2 次成功發生在第 7 次注射，試問有幾次失敗？答： [2] 次<br>Q3. 此機率問題的公式為：P(X=7)=C(x,y)(1/6)2(5/6)5,則 x= [3], y= [4]",
+    "answers": [
+      [
+        "負⼆項分佈",
+        "Negative Binomial Distribution",
+        "負二項"
+      ],
+      [
+        "5"
+      ],
+      [
+        "6"
+      ],
+      [
+        "1"
+      ]
+    ],
+    "type": "fill"
+  }
+]

@@ -1,0 +1,377 @@
+[
+  {
+    "type": "single",
+    "question": "變異數的單位與隨機變數 X 相⽐為？",
+    "answers": [
+      {
+        "text": "是 X 單位的倒數",
+        "isCorrect": false
+      },
+      {
+        "text": "無單位",
+        "isCorrect": false
+      },
+      {
+        "text": "相同",
+        "isCorrect": false
+      },
+      {
+        "text": "是 X 單位的平⽅",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "變異數公式中包含 (x−μ)^2，單位會被平⽅。"
+  },
+  {
+    "type": "single",
+    "question": "若 g(X) = 4X + 3，則其變異數 Var(g(X)) 為？",
+    "answers": [
+      {
+        "text": "16Var(X)",
+        "isCorrect": true
+      },
+      {
+        "text": "Var(X) + 3",
+        "isCorrect": false
+      },
+      {
+        "text": "3Var(X)",
+        "isCorrect": false
+      },
+      {
+        "text": "4Var(X)",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Var(aX + b) = a²Var(X)，a = 4，因此為 16Var(X)。"
+  },
+  {
+    "type": "single",
+    "question": "隨機變數 X 的變異數若為 0，則代表什麼？",
+    "answers": [
+      {
+        "text": "X 為對稱分布",
+        "isCorrect": false
+      },
+      {
+        "text": "X 為常數",
+        "isCorrect": true
+      },
+      {
+        "text": "分布非常廣",
+        "isCorrect": false
+      },
+      {
+        "text": "平均值為 0",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "變異數為 0 表示所有觀測值都等於平均值，即 X 為定值。"
+  },
+  {
+    "type": "single",
+    "question": "以下哪個公式用來計算 Var(aX + b)？",
+    "answers": [
+      {
+        "text": "aVar(X) + b",
+        "isCorrect": false
+      },
+      {
+        "text": "a²Var(X)",
+        "isCorrect": true
+      },
+      {
+        "text": "a²Var(X) + b²",
+        "isCorrect": false
+      },
+      {
+        "text": "Var(X) + b²",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "變異數具有平方性質，Var(aX + b) = a²Var(X)。"
+  },
+  {
+    "type": "single",
+    "question": "在某離散機率分布中，f(x) = P(X=x)，則以下哪一敘述正確？",
+    "answers": [
+      {
+        "text": "f(x) 沒有限制",
+        "isCorrect": false
+      },
+      {
+        "text": "所有 f(x) 值相加可超過 1",
+        "isCorrect": false
+      },
+      {
+        "text": "某些 f(x) 可為負",
+        "isCorrect": false
+      },
+      {
+        "text": "所有 f(x) 值總和必須等於 1",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "機率分布的所有機率總和一定為 1，且不能為負。"
+  },
+  {
+    "type": "single",
+    "question": "若隨機變數 X 的密度函數為 f(x)=1/3 x²（於 0 ≤ x ≤ 1），則 E[X] 為？",
+    "answers": [
+      {
+        "text": "1/12",
+        "isCorrect": true
+      },
+      {
+        "text": "5/12",
+        "isCorrect": false
+      },
+      {
+        "text": "3/4",
+        "isCorrect": false
+      },
+      {
+        "text": "1/2",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "E[X] = ∫ x⋅(1/3 x²) dx = 1/3 ∫ x³ dx = 1/12。"
+  },
+  {
+    "type": "fill",
+    "question": "令 X 是具有以下機率分佈的隨機變數：<br><img src=\"https://iclass.tku.edu.tw/api/uploads/21496213/in-rich-content?created_at=2025-04-24T22:31:14Z\"><br>請回答下列問題：(請用小數回答)<br>1. 計算 X 的期望值 E(X) = [1]<br>2. 計算 X2 的期望值 E(X2) = [2]<br>3. 計算變異數 Var(X) = [3]<br>4. 計算標準差 σX= [4]",
+    "answers": [
+      "2.3",
+      "13.9",
+      "8.61",
+      "2.93"
+    ]
+  },
+  {
+    "type": "single",
+    "question": "若隨機變數 X 的期望值為 3，則 E[2X + 1] 等於？",
+    "answers": [
+      {
+        "text": "7",
+        "isCorrect": true
+      },
+      {
+        "text": "6",
+        "isCorrect": false
+      },
+      {
+        "text": "9",
+        "isCorrect": false
+      },
+      {
+        "text": "8",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "E[2X + 1] = 2E[X] + 1 = 2×3 + 1 = 7。"
+  },
+  {
+    "type": "single",
+    "question": "若 X 的期望值為 5，變異數為 4，則 E(X²) 是多少？",
+    "answers": [
+      {
+        "text": "21",
+        "isCorrect": false
+      },
+      {
+        "text": "9",
+        "isCorrect": false
+      },
+      {
+        "text": "25",
+        "isCorrect": false
+      },
+      {
+        "text": "29",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Var(X) = E(X²) − μ² ⇒ E(X²) = 4 + 25 = 29。"
+  },
+  {
+    "type": "single",
+    "question": "隨機變數的期望值代表什麼？",
+    "answers": [
+      {
+        "text": "最常見的數值",
+        "isCorrect": false
+      },
+      {
+        "text": "該變數的長期平均結果",
+        "isCorrect": true
+      },
+      {
+        "text": "最大可能值",
+        "isCorrect": false
+      },
+      {
+        "text": "中位數",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "期望值是變數長期試驗下的平均結果。"
+  },
+  {
+    "type": "fill",
+    "question": "假設在任一給定的年份中某地區停電 0、1、2 或 3 次 的機 率分別 為 0.4、0.3、0.2 和 0.1。令隨機變數 X 表示停電的次數，請回答下列問題：<br>1. X 的期望值 [1]<br>2. X 的變異數 [2]",
+    "answers": [
+      "1.0",
+      "1.0"
+    ]
+  },
+  {
+    "type": "fill",
+    "question": "設隨機變數 X 和 Y 的聯合機率分佈如下表所示：<br><img src=\"https://iclass.tku.edu.tw/api/uploads/21496219/in-rich-content?created_at=2025-04-24T22:45:39Z\">請回答下列問題：(答案請用小數點表示)<br>1. 計算 X 的邊際機率分佈 g(1) = [1]<br>2. 計算 Y 的邊際機率分佈 h(2) = [2]<br>3. 計算 X 的期望值 E(X) = [3]<br>4. 計算 Y 的期望值 E(Y) = [4]<br>5. 計算 XY 的期望值 E(XY) = [5]<br>6. 計算 X與 Y 共變異數 Cov(X, Y) = [6]",
+    "answers": [
+      "0.3",
+      "0.6",
+      "2.1",
+      "1.6",
+      "3.4",
+      "0.04"
+    ]
+  },
+  {
+    "type": "single",
+    "question": "1若 E(X) = 4，Var(X) = 2，則 Var(3X - 2) 為？",
+    "answers": [
+      {
+        "text": "18",
+        "isCorrect": true
+      },
+      {
+        "text": "6",
+        "isCorrect": false
+      },
+      {
+        "text": "8",
+        "isCorrect": false
+      },
+      {
+        "text": "12",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Var(3X - 2) = 3² × 2 = 18。"
+  },
+  {
+    "type": "single",
+    "question": "1若 Z = aX + bY，且 X、Y 獨立，則 Var(Z) 為？",
+    "answers": [
+      {
+        "text": "a²Var(X) + b²Var(Y)",
+        "isCorrect": true
+      },
+      {
+        "text": "Var(X + Y)",
+        "isCorrect": false
+      },
+      {
+        "text": "aVar(X) + bVar(Y)",
+        "isCorrect": false
+      },
+      {
+        "text": "a + b",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Var(aX + bY) = a²Var(X) + b²Var(Y)，若 X、Y 獨立則無交叉項。"
+  },
+  {
+    "type": "single",
+    "question": "1若 X 和 Y 獨立，且 Var(X)=2，Var(Y)=3，則 Var(X−Y) 為？",
+    "answers": [
+      {
+        "text": "6",
+        "isCorrect": false
+      },
+      {
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "text": "-1",
+        "isCorrect": false
+      },
+      {
+        "text": "5",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Var(X−Y) = Var(X) + Var(Y) = 2 + 3 = 5（獨立）。"
+  },
+  {
+    "type": "single",
+    "question": "1若 X 的密度函數為 f(x)=1/3 x²（−1 < x < 2），則 E(4X+3) 為？",
+    "answers": [
+      {
+        "text": "14",
+        "isCorrect": false
+      },
+      {
+        "text": "5",
+        "isCorrect": false
+      },
+      {
+        "text": "11",
+        "isCorrect": false
+      },
+      {
+        "text": "8",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "先求 E(X)=5/4，E(4X+3)=4×5/4+3=8。"
+  },
+  {
+    "type": "single",
+    "question": "1若 X 和 Y 的聯合密度為 f(x,y)=8xy（0≤y≤x≤1），則 E(XY) 為？",
+    "answers": [
+      {
+        "text": "1/2",
+        "isCorrect": false
+      },
+      {
+        "text": "1/4",
+        "isCorrect": false
+      },
+      {
+        "text": "4/9",
+        "isCorrect": true
+      },
+      {
+        "text": "2/3",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "E(XY)=∬xy⋅8xy dydx = 4/9。"
+  },
+  {
+    "type": "single",
+    "question": "1共變異數 Cov(X,Y) 的公式是？",
+    "answers": [
+      {
+        "text": "E(XY)−μXμY",
+        "isCorrect": true
+      },
+      {
+        "text": "E(X)+E(Y)",
+        "isCorrect": false
+      },
+      {
+        "text": "E(XY)",
+        "isCorrect": false
+      },
+      {
+        "text": "E(X)E(Y)",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Cov(X,Y)=E(XY)−μXμY。"
+  }
+]
