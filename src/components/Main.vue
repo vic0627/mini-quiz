@@ -5,10 +5,6 @@ import SingleChoice from "./questions/SingleChoice.vue";
 import { useQuiz } from "../store/useQuiz";
 
 const quizStore = useQuiz();
-
-quizStore.$subscribe((_, state) => {
-  // console.log(state.data);
-});
 </script>
 
 <template>
