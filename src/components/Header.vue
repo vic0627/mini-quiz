@@ -20,6 +20,15 @@ const quizLib: Record<string, Questions> = {
   第12次測驗: statistic12 as Questions,
 };
 
+const totalQuiz = [
+  ...statistic7,
+  ...statistic8,
+  ...statistic9,
+  ...statistic10,
+  ...statistic11,
+  ...statistic12,
+];
+
 const quizStore = useQuiz();
 
 const uploadQuestions = async () => {
@@ -35,7 +44,7 @@ const uploadQuestions = async () => {
 const selectedQuiz = ref("");
 
 watch(selectedQuiz, (quizName) => {
-  const selected = quizLib[quizName];
+  const selected = Array.isArray(quizName) ? quizName : quizLib[quizName];
   if (selected) quizStore.status = "inProgress";
   quizStore.setDataWithJson(selected ?? []);
 });
@@ -86,6 +95,7 @@ const reset = () => {
                 key
               }}</el-option>
             </el-option-group>
+            <el-option :value="totalQuiz">統計期末總測驗</el-option>
           </el-select>
           <el-button
             v-if="quizStore.status === 'inProgress'"
