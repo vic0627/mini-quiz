@@ -91,7 +91,7 @@ const getOptionResult = (id: string) => {
 </template>
 
 <style scoped>
-::v-deep .el-form-item__error {
+:deep(.el-form-item__error) {
   display: block;
   position: static;
   margin-top: 1rem;
@@ -107,7 +107,7 @@ const getOptionResult = (id: string) => {
   color: var(--el-color-danger) !important;
 }
 
-::v-deep .success {
+:deep(.success) {
   border-color: var(--el-color-success-light-5) !important;
   background-color: var(--el-color-success-light-9) !important;
 
@@ -115,7 +115,7 @@ const getOptionResult = (id: string) => {
     color: var(--el-color-success) !important;
   }
 }
-::v-deep .danger {
+:deep(.danger) {
   border-color: var(--el-color-danger-light-5) !important;
   background-color: var(--el-color-danger-light-9) !important;
 

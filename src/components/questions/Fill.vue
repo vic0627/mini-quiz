@@ -102,7 +102,7 @@ const getInputResult = (id: string) => {
 </template>
 
 <style scoped>
-::v-deep .el-form-item__error {
+:deep(.el-form-item__error) {
   display: block;
   position: static;
   margin-top: 1rem;
@@ -118,7 +118,7 @@ const getInputResult = (id: string) => {
   color: var(--el-color-danger) !important;
 }
 
-::v-deep .success {
+:deep(.success) {
   .el-input__wrapper {
     box-shadow: 0 0 0 1px var(--el-color-success-light-5) inset !important;
     background-color: var(--el-color-success-light-9) !important;
@@ -129,7 +129,7 @@ const getInputResult = (id: string) => {
     color: var(--el-color-success) !important;
   }
 }
-::v-deep .danger {
+:deep(.danger) {
   .el-input__wrapper {
     box-shadow: 0 0 0 1px var(--el-color-danger-light-5) inset !important;
     background-color: var(--el-color-danger-light-9) !important;
