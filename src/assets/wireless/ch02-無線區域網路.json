@@ -1,0 +1,1129 @@
+[
+  {
+    "type": "single",
+    "question": "Ad Hoc 無線網路中，兩個站台可能因為距離太遠，無法以 CSMA 解決碰撞問題，稱為？",
+    "answers": [
+      {
+        "text": "隱藏問題 Hidden Problem",
+        "isCorrect": false
+      },
+      {
+        "text": "隱藏節點問題 Hidden-Node Problem",
+        "isCorrect": true
+      },
+      {
+        "text": "多路徑效應 Multipath Effect",
+        "isCorrect": false
+      },
+      {
+        "text": "暴露終端機問題 Exposed Terminal Problem",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "隱藏節點彼此聽不到對方的載波，雖然都聽得到 AP，導致 CSMA/CA 無法避免碰撞；常用 RTS/CTS 緩解。"
+  },
+  {
+    "type": "single",
+    "question": "WPA2 僅採用哪種加密演算法？",
+    "answers": [
+      {
+        "text": "SHA-1",
+        "isCorrect": false
+      },
+      {
+        "text": "TKIP",
+        "isCorrect": false
+      },
+      {
+        "text": "AES",
+        "isCorrect": true
+      },
+      {
+        "text": "RC4",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "WPA2 採用 AES/CCMP 做為加解密；TKIP/RC4 為 WPA/WEP 舊機制，SHA-1 為雜湊非加密。"
+  },
+  {
+    "type": "single",
+    "question": "IEEE 802.11 MAC 訊框分為哪三類？",
+    "answers": [
+      {
+        "text": "Control/Management/Data",
+        "isCorrect": true
+      },
+      {
+        "text": "Control/Data/Security",
+        "isCorrect": false
+      },
+      {
+        "text": "Management/Security/Control",
+        "isCorrect": false
+      },
+      {
+        "text": "Data/Security/Management",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "802.11 MAC 訊框依用途分為管理（Management）、控制（Control）與資料（Data）三類。"
+  },
+  {
+    "type": "single",
+    "question": "在 IEEE 802.11訊框控制欄位中，Retry欄位表示？",
+    "answers": [
+      {
+        "text": "省電模式",
+        "isCorrect": false
+      },
+      {
+        "text": "有更多分段",
+        "isCorrect": false
+      },
+      {
+        "text": "WEP已啟用",
+        "isCorrect": false
+      },
+      {
+        "text": "此訊框為重送",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Retry 位元被設成 1 代表該訊框為重送，用以讓接收端可忽略重複訊框。"
+  },
+  {
+    "type": "single",
+    "question": "下列哪一項不是 802.11ac 的特色？",
+    "answers": [
+      {
+        "text": "多使用者 MIMO",
+        "isCorrect": false
+      },
+      {
+        "text": "支援 8 個空間串流",
+        "isCorrect": false
+      },
+      {
+        "text": "支援 160 MHz 頻寬",
+        "isCorrect": false
+      },
+      {
+        "text": "採用 1024-QAM",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "802.11ac 最高為 256‑QAM；1024‑QAM 是 802.11ax（Wi‑Fi 6）才引入，故『採用 1024‑QAM』非 ac 特性。"
+  },
+  {
+    "type": "single",
+    "question": "IEEE 802.11be 預計將會被定義為哪個 Wi-Fi 版本？",
+    "answers": [
+      {
+        "text": "Wi-Fi 6E",
+        "isCorrect": false
+      },
+      {
+        "text": "Wi-Fi 7",
+        "isCorrect": true
+      },
+      {
+        "text": "Wi-Fi 8",
+        "isCorrect": false
+      },
+      {
+        "text": "Wi-Fi 9",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "802.11be 的商業名稱為 Wi‑Fi 7；802.11ax 為 Wi‑Fi 6/6E。"
+  },
+  {
+    "type": "single",
+    "question": "在台灣，IEEE 802.11 之 2.4 GHz 頻段中，AP 使用之非重疊頻道通常是那三個為最佳？",
+    "answers": [
+      {
+        "text": "1、2、3",
+        "isCorrect": false
+      },
+      {
+        "text": "1、6、11",
+        "isCorrect": true
+      },
+      {
+        "text": "2、5、9",
+        "isCorrect": false
+      },
+      {
+        "text": "3、7、11",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "2.4GHz 中僅 1/6/11 三信道彼此中心頻率間隔 25MHz，可避免重疊干擾，實務部署最常用。"
+  },
+  {
+    "type": "single",
+    "question": "我們在購買無線 Wi-Fi 基地台時，其預設模式通常為？",
+    "answers": [
+      {
+        "text": "存取點模式 (AP mode)",
+        "isCorrect": false
+      },
+      {
+        "text": "WISP 模式 (WISP mode)",
+        "isCorrect": false
+      },
+      {
+        "text": "路由器模式 (Router mode)",
+        "isCorrect": true
+      },
+      {
+        "text": "中繼模式 (Repeater mode)",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "家用分享器出廠多預設為路由器模式，內建 NAT/DHCP 與無線 AP；AP/中繼多需手動改。"
+  },
+  {
+    "type": "single",
+    "question": "IEEE 802.11ax 標準所使用的操作頻段不包括？",
+    "answers": [
+      {
+        "text": "2.4 GHz",
+        "isCorrect": false
+      },
+      {
+        "text": "5 GHz",
+        "isCorrect": false
+      },
+      {
+        "text": "6 GHz",
+        "isCorrect": false
+      },
+      {
+        "text": "24 GHz",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "802.11ax 支援 2.4 與 5GHz（6GHz 在 6E/ax-6GHz）；24GHz 並非 802.11 運作頻段。"
+  },
+  {
+    "type": "single",
+    "question": "Bluetooth 工作於哪個頻段？",
+    "answers": [
+      {
+        "text": "2.452 GHz",
+        "isCorrect": true
+      },
+      {
+        "text": "5.8 GHz",
+        "isCorrect": false
+      },
+      {
+        "text": "60 GHz",
+        "isCorrect": false
+      },
+      {
+        "text": "900 MHz",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Bluetooth 使用 2.4GHz ISM 頻帶（約 2.402–2.480GHz）並以 FHSS/AFH 跳頻；2.452GHz 屬其中之一。"
+  },
+  {
+    "type": "single",
+    "question": "在分散式協調功能中，是使用哪種服務提供資料收送？",
+    "answers": [
+      {
+        "text": "DCF",
+        "isCorrect": true
+      },
+      {
+        "text": "PCF",
+        "isCorrect": false
+      },
+      {
+        "text": "CFP",
+        "isCorrect": false
+      },
+      {
+        "text": "CW",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "DCF（Distributed Coordination Function）為分散式競爭存取，用於一般資料收送；PCF 為集中式。"
+  },
+  {
+    "type": "single",
+    "question": "IEEE 802.11 MAC 中，用於取消聯結的服務是？",
+    "answers": [
+      {
+        "text": "Association",
+        "isCorrect": false
+      },
+      {
+        "text": "Disassociation",
+        "isCorrect": true
+      },
+      {
+        "text": "Integration",
+        "isCorrect": false
+      },
+      {
+        "text": "Reassociation",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Disassociation 用於終止既有的聯結關係；Association 建立、Reassociation 重新聯結。"
+  },
+  {
+    "type": "single",
+    "question": "在 IEEE 802.11 中，隨機後退演算法的目的是？",
+    "answers": [
+      {
+        "text": "降低功耗",
+        "isCorrect": false
+      },
+      {
+        "text": "保護安全",
+        "isCorrect": false
+      },
+      {
+        "text": "減少碰撞",
+        "isCorrect": true
+      },
+      {
+        "text": "增加頻寬",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "隨機退避在競爭式媒體存取中分散傳送時機，降低同時送出造成的碰撞機率。"
+  },
+  {
+    "type": "single",
+    "question": "下列哪一項是 802.11ax 引入的新功能？",
+    "answers": [
+      {
+        "text": "RTS/CTS",
+        "isCorrect": false
+      },
+      {
+        "text": "SIFS",
+        "isCorrect": false
+      },
+      {
+        "text": "OFDMA",
+        "isCorrect": true
+      },
+      {
+        "text": "DCF",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "802.11ax 最重要的新技術之一是 OFDMA，可在頻域切分 RU 讓多用戶並行傳輸。"
+  },
+  {
+    "type": "single",
+    "question": "IEEE 802.11ax 的 Wi-Fi 6E 新增了哪個頻段？",
+    "answers": [
+      {
+        "text": "3 GHz",
+        "isCorrect": false
+      },
+      {
+        "text": "6 GHz",
+        "isCorrect": true
+      },
+      {
+        "text": "60 GHz",
+        "isCorrect": false
+      },
+      {
+        "text": "900 MHz",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Wi‑Fi 6E 指 802.11ax 延伸到 6GHz 頻段的裝置與認證。"
+  },
+  {
+    "type": "single",
+    "question": "IEEE 802.11n 在 2.4 GHz 與 5.8 GHz 頻段都支持哪種調變技術？",
+    "answers": [
+      {
+        "text": "IR",
+        "isCorrect": false
+      },
+      {
+        "text": "FHSS",
+        "isCorrect": false
+      },
+      {
+        "text": "DSSS",
+        "isCorrect": false
+      },
+      {
+        "text": "OFDM",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "802.11a/g/n 均採 OFDM；DSSS 為 11b/初期 11g，FHSS/IR 不用於 11n。"
+  },
+  {
+    "type": "single",
+    "question": "SSID 指的是？",
+    "answers": [
+      {
+        "text": "Station Set ID",
+        "isCorrect": false
+      },
+      {
+        "text": "Secure Session ID",
+        "isCorrect": false
+      },
+      {
+        "text": "System Service ID",
+        "isCorrect": false
+      },
+      {
+        "text": "Service Set Identifier",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "SSID 為 Service Set Identifier，識別同一無線服務集合的名稱。"
+  },
+  {
+    "type": "single",
+    "question": "IEEE 802.11n 所使用的頻率為？",
+    "answers": [
+      {
+        "text": "2.4 GHz",
+        "isCorrect": true
+      },
+      {
+        "text": "3 GHz",
+        "isCorrect": false
+      },
+      {
+        "text": "6 GHz",
+        "isCorrect": false
+      },
+      {
+        "text": "60 GHz",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "802.11n 支援 2.4 與 5GHz；本題選項中僅 2.4GHz 為有效頻段，因此選 2.4GHz。"
+  },
+  {
+    "type": "single",
+    "question": "在 Infrastructure 架構中，不包含下列哪個元件？",
+    "answers": [
+      {
+        "text": "AP",
+        "isCorrect": false
+      },
+      {
+        "text": "DS",
+        "isCorrect": false
+      },
+      {
+        "text": "BSS",
+        "isCorrect": false
+      },
+      {
+        "text": "中繼器",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "基礎架構含 AP、BSS 與透過 DS 連結；『中繼器』非 802.11 架構必要元件。"
+  },
+  {
+    "type": "single",
+    "question": "在 IEEE 802.11 中，ACK 訊框主要用於？",
+    "answers": [
+      {
+        "text": "發起連結",
+        "isCorrect": false
+      },
+      {
+        "text": "傳送資料",
+        "isCorrect": false
+      },
+      {
+        "text": "設定臨界值",
+        "isCorrect": false
+      },
+      {
+        "text": "確認資料接收",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "ACK 用於正向回覆資料已正確收到，配合重送機制提高鏈路可靠度。"
+  },
+  {
+    "type": "single",
+    "question": "IEEE 802.11a 工作在哪個 ISM 頻段？",
+    "answers": [
+      {
+        "text": "2.4 GHz",
+        "isCorrect": false
+      },
+      {
+        "text": "5 GHz",
+        "isCorrect": true
+      },
+      {
+        "text": "60 GHz",
+        "isCorrect": false
+      },
+      {
+        "text": "900 MHz",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "802.11a 規格運作於 5GHz U‑NII 頻帶，不在 2.4GHz/900MHz/60GHz。"
+  },
+  {
+    "type": "single",
+    "question": "WPA 相較 WEP 的一大改進是？",
+    "answers": [
+      {
+        "text": "無鑰匙協議",
+        "isCorrect": false
+      },
+      {
+        "text": "靜態金鑰",
+        "isCorrect": false
+      },
+      {
+        "text": "使用 RC4",
+        "isCorrect": false
+      },
+      {
+        "text": "動態產生 Session Key",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "WEP 使用靜態金鑰且 IV 短，安全性低；WPA 引入 TKIP/802.1X，支援動態產生 Session Key。"
+  },
+  {
+    "type": "single",
+    "question": "在 DCF 中，哪個 IFS 最短？",
+    "answers": [
+      {
+        "text": "DIFS",
+        "isCorrect": false
+      },
+      {
+        "text": "EIFS",
+        "isCorrect": false
+      },
+      {
+        "text": "PIFS",
+        "isCorrect": false
+      },
+      {
+        "text": "SIFS",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "SIFS 最短（SIFS < PIFS < DIFS < EIFS），用於 ACK、CTS 等高優先順序控制交換。"
+  },
+  {
+    "type": "single",
+    "question": "IEEE 802.11ac 標準所使用的操作頻段為何？",
+    "answers": [
+      {
+        "text": "1.8 GHz",
+        "isCorrect": false
+      },
+      {
+        "text": "2.4 GHz",
+        "isCorrect": false
+      },
+      {
+        "text": "5 GHz",
+        "isCorrect": true
+      },
+      {
+        "text": "6 GHz",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "802.11ac 僅在 5GHz 運作（含 80/160MHz 頻寬與 MU‑MIMO）。"
+  },
+  {
+    "type": "single",
+    "question": "無基礎架構 Ad-Hoc 網路的特點是？",
+    "answers": [
+      {
+        "text": "需要 AP",
+        "isCorrect": false
+      },
+      {
+        "text": "只能單一用戶",
+        "isCorrect": false
+      },
+      {
+        "text": "裝置可直接連接",
+        "isCorrect": true
+      },
+      {
+        "text": "需有有線分散式系統",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Ad‑Hoc/IBSS 為點對點拓撲，裝置可直接互連，不需要 AP。"
+  },
+  {
+    "type": "single",
+    "question": "工作站間通訊必須經由AP是屬於哪一種類型架構？",
+    "answers": [
+      {
+        "text": "Ad-Hoc",
+        "isCorrect": false
+      },
+      {
+        "text": "Infrastructure",
+        "isCorrect": true
+      },
+      {
+        "text": "Infrastructure 和 Ad-Hoc 皆是",
+        "isCorrect": false
+      },
+      {
+        "text": "Infrastructure 和 Ad-Hoc 皆非",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Infrastructure 由 STA 經由 AP 溝通，工作站間流量需經 AP 轉送。"
+  },
+  {
+    "type": "single",
+    "question": "在無線區域網路中，若有無線基地台負責無線網路與其他網路之連線，無線基地台所管理的網路稱為？",
+    "answers": [
+      {
+        "text": "Cell",
+        "isCorrect": false
+      },
+      {
+        "text": "涵蓋範圍",
+        "isCorrect": false
+      },
+      {
+        "text": "基本服務集 (Basic Service Set)",
+        "isCorrect": true
+      },
+      {
+        "text": "獨立基本服務集 (Impendent Basic Service Set)",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "一個 AP 所服務的區域稱為 BSS（Basic Service Set）；IBSS 為無 AP 的獨立基本服務集。"
+  },
+  {
+    "type": "single",
+    "question": "四向交握 (4-Way Handshake) 的正確順序是？",
+    "answers": [
+      {
+        "text": "RTS → ACK → DATA → ACK",
+        "isCorrect": false
+      },
+      {
+        "text": "RTS → CTS → DATA → ACK",
+        "isCorrect": true
+      },
+      {
+        "text": "CTS → RTS → DATA → ACK",
+        "isCorrect": false
+      },
+      {
+        "text": "CTS → ACK → DATA → ACK",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "DCF 的 RTS/CTS 四向握手流程為：RTS→CTS→DATA→ACK，用於避免隱藏節點碰撞。"
+  },
+  {
+    "type": "single",
+    "question": "IEEE 802.11ac 在 80 MHz 頻寬下的最大理論速率約為？",
+    "answers": [
+      {
+        "text": "72.2 Mbps",
+        "isCorrect": false
+      },
+      {
+        "text": "200 Mbps",
+        "isCorrect": false
+      },
+      {
+        "text": "433.3 Mbps",
+        "isCorrect": true
+      },
+      {
+        "text": "866.7 Mbps",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "單天線、80MHz、256‑QAM/5/6 編碼下 802.11ac 理論速率為 433.3Mbps。"
+  },
+  {
+    "type": "single",
+    "question": "下列頻帶何者不受政府管轄，可提供一般無線電設計使用？",
+    "answers": [
+      {
+        "text": "2.4 GHz",
+        "isCorrect": true
+      },
+      {
+        "text": "6.8 GHz",
+        "isCorrect": false
+      },
+      {
+        "text": "10 KHz",
+        "isCorrect": false
+      },
+      {
+        "text": "16 KHz",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "2.4GHz 為免牌照 ISM 頻帶，可供一般無線系統設計與使用。"
+  },
+  {
+    "type": "single",
+    "question": "WPA3於哪一年正式發布？",
+    "answers": [
+      {
+        "text": "2016",
+        "isCorrect": false
+      },
+      {
+        "text": "2018",
+        "isCorrect": true
+      },
+      {
+        "text": "2019",
+        "isCorrect": false
+      },
+      {
+        "text": "2020",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "WPA3 於 2018 年由 Wi‑Fi Alliance 正式發布，導入 SAE 等新機制。"
+  },
+  {
+    "type": "single",
+    "question": "在 IEEE 802.11 PCF 之非輪詢工作站必須在哪個週期傳送訊匡？",
+    "answers": [
+      {
+        "text": "免競爭和免競爭週期皆可",
+        "isCorrect": false
+      },
+      {
+        "text": "免競爭和免競爭週期皆不可",
+        "isCorrect": false
+      },
+      {
+        "text": "免競爭週期",
+        "isCorrect": false
+      },
+      {
+        "text": "競爭週期",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "PCF 的非輪詢工作站在免競爭期不可傳送，需於競爭期（DCF）自行競爭傳送。"
+  },
+  {
+    "type": "single",
+    "question": "無線網路通訊協定 IEEE 802.11ac 單支天線且使用 20MHz 頻寬，其傳輸速率可達？",
+    "answers": [
+      {
+        "text": "87.6 Mbps",
+        "isCorrect": true
+      },
+      {
+        "text": "200 Mbps",
+        "isCorrect": false
+      },
+      {
+        "text": "433.3 Mbps",
+        "isCorrect": false
+      },
+      {
+        "text": "866.7 Mbps",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "802.11ac 1x1、20MHz 在 256‑QAM/5/6 下速率 86.7Mbps（題目採 87.6 近似值）。"
+  },
+  {
+    "type": "single",
+    "question": "無線網路通訊協定 IEEE 802.11ax 單支天線且使用 40MHz 頻寬，其傳輸速度可達？",
+    "answers": [
+      {
+        "text": "143.4 Mbps",
+        "isCorrect": false
+      },
+      {
+        "text": "286.8 Mbps",
+        "isCorrect": true
+      },
+      {
+        "text": "600.4 Mbps",
+        "isCorrect": false
+      },
+      {
+        "text": "1201 Mbps",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "802.11ax 1x1、40MHz 在 1024‑QAM/5/6 編碼與 OFDMA/NDP 等效率下理論 286.8Mbps。"
+  },
+  {
+    "type": "single",
+    "question": "無線網路通訊協定 IEEE 802.11n 單支天線且使用20MHz頻寬，其傳輸速度約可達？",
+    "answers": [
+      {
+        "text": "72.2 Mbps",
+        "isCorrect": true
+      },
+      {
+        "text": "150 Mbps",
+        "isCorrect": false
+      },
+      {
+        "text": "300 Mbps",
+        "isCorrect": false
+      },
+      {
+        "text": "450 Mbps",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "802.11n 1x1、20MHz、64‑QAM/5/6 下對應資料率 72.2Mbps（GI 800ns）。"
+  },
+  {
+    "type": "single",
+    "question": "無線區域網路使用的頻段不包括哪一個？",
+    "answers": [
+      {
+        "text": "1.8~1.9 GHz",
+        "isCorrect": true
+      },
+      {
+        "text": "2.4~2.483 GHz",
+        "isCorrect": false
+      },
+      {
+        "text": "5.725~5.875 GHz",
+        "isCorrect": false
+      },
+      {
+        "text": "902~928 MHz",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "WLAN 常見免牌照頻段含 2.4GHz、5.8GHz 與 902–928MHz；1.8–1.9GHz 非標準 WLAN 頻段。"
+  },
+  {
+    "type": "single",
+    "question": "IEEE 802.11原始標準於哪一年發布？",
+    "answers": [
+      {
+        "text": "1997年",
+        "isCorrect": true
+      },
+      {
+        "text": "1999年",
+        "isCorrect": false
+      },
+      {
+        "text": "2003年",
+        "isCorrect": false
+      },
+      {
+        "text": "2009年",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "IEEE 802.11 初版標準於 1997 年發布（後續 a/b/g/n/ac/ax 為擴充修訂）。"
+  },
+  {
+    "type": "single",
+    "question": "下列何者是無線區域網路(WLAN)通訊無法避免的缺點？",
+    "answers": [
+      {
+        "text": "無法網路漫遊",
+        "isCorrect": false
+      },
+      {
+        "text": "無線網路連線費用高",
+        "isCorrect": false
+      },
+      {
+        "text": "無線電波彼此干擾",
+        "isCorrect": true
+      },
+      {
+        "text": "無線網路節點無法移動",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "無線電以共享空中介質傳輸，反射/散射/外部訊號會造成干擾，屬無法完全避免之現象。"
+  },
+  {
+    "type": "single",
+    "question": "MIMO技術在802.11n中最高支援多少支天線？",
+    "answers": [
+      {
+        "text": "2",
+        "isCorrect": false
+      },
+      {
+        "text": "4",
+        "isCorrect": true
+      },
+      {
+        "text": "6",
+        "isCorrect": false
+      },
+      {
+        "text": "8",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "802.11n 標準最高支援 4 空間串流/天線配置（4x4 MIMO）。"
+  },
+  {
+    "type": "single",
+    "question": "IEEE 802.11 網路架構中，ESA 代表？",
+    "answers": [
+      {
+        "text": "Extra Service Area",
+        "isCorrect": false
+      },
+      {
+        "text": "Ethernet Service Area",
+        "isCorrect": false
+      },
+      {
+        "text": "Extended Service Area",
+        "isCorrect": true
+      },
+      {
+        "text": "Enhanced Service Area",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Extended Service Area 為多個 BSS 透過 DS 互聯後擴展的服務範圍。"
+  },
+  {
+    "type": "single",
+    "question": "某家網路咖啡店宣稱只要顧客來店消費，並攜帶配有無線網路卡的筆記型電腦，即可享受無線上網的服務，請問此家咖啡店的無線區域網路最可能採用下列哪一種通訊協定？",
+    "answers": [
+      {
+        "text": "ADSL",
+        "isCorrect": false
+      },
+      {
+        "text": "RFID",
+        "isCorrect": false
+      },
+      {
+        "text": "Wi-Fi",
+        "isCorrect": true
+      },
+      {
+        "text": "Bluetooth",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "公共熱點以 Wi‑Fi（802.11）提供無線上網；ADSL 為接取技術、RFID/Bluetooth 為不同應用。"
+  },
+  {
+    "type": "single",
+    "question": "無線網路佈建時，哪一項屬於多重路徑干擾問題？",
+    "answers": [
+      {
+        "text": "Fading",
+        "isCorrect": false
+      },
+      {
+        "text": "Shadowing",
+        "isCorrect": false
+      },
+      {
+        "text": "Attenuation",
+        "isCorrect": false
+      },
+      {
+        "text": "Multipath Interference",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "多重路徑由反射/繞射造成，符號彼此干擾使信號失真，屬 WLAN 規劃常見問題。"
+  },
+  {
+    "type": "single",
+    "question": "RTS/CTS 機制主要用於解決哪一個問題？",
+    "answers": [
+      {
+        "text": "頻寬不足",
+        "isCorrect": false
+      },
+      {
+        "text": "多路徑衰減",
+        "isCorrect": false
+      },
+      {
+        "text": "安全性弱點",
+        "isCorrect": false
+      },
+      {
+        "text": "隱藏節點問題",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "RTS/CTS 讓節點在傳送前取得媒體預留，可抑制彼此聽不到的隱藏節點造成的碰撞。"
+  },
+  {
+    "type": "single",
+    "question": "802.11ac俗稱「第幾代Wi-Fi」？",
+    "answers": [
+      {
+        "text": "3rd Generation",
+        "isCorrect": false
+      },
+      {
+        "text": "4rd Generation",
+        "isCorrect": false
+      },
+      {
+        "text": "5rd Generation",
+        "isCorrect": true
+      },
+      {
+        "text": "6rd Generation",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "802.11ac 的行銷名為 Wi‑Fi 5（第五代），對應 80/160MHz 與更高調變。"
+  },
+  {
+    "type": "single",
+    "question": "下列敘述何者不正確？",
+    "answers": [
+      {
+        "text": "訊號的強度不會隨著距離而衰減",
+        "isCorrect": true
+      },
+      {
+        "text": "通訊訊號分成數位和類比兩種訊號",
+        "isCorrect": false
+      },
+      {
+        "text": "傳送端和接收端必須在同一個頻道才能通訊",
+        "isCorrect": false
+      },
+      {
+        "text": "在無線通訊中，若接收端同時收到多筆資料，會有碰撞的情況發生",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "自由空間損耗與遮蔽使訊號隨距離衰減，故『不會衰減』為錯誤敘述。"
+  },
+  {
+    "type": "single",
+    "question": "Wi-Fi 聯盟最初的名稱是什麼？",
+    "answers": [
+      {
+        "text": "IEEE 802.11 Alliance",
+        "isCorrect": false
+      },
+      {
+        "text": "Wi-Fi Standards Group",
+        "isCorrect": false
+      },
+      {
+        "text": "Wireless LAN Alliance",
+        "isCorrect": false
+      },
+      {
+        "text": "Wireless Ethernet Compatibility Alliance",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Wi‑Fi 聯盟最初名為 WECA（Wireless Ethernet Compatibility Alliance）。"
+  },
+  {
+    "type": "single",
+    "question": "RF Band 指的是？",
+    "answers": [
+      {
+        "text": "資料路線",
+        "isCorrect": false
+      },
+      {
+        "text": "加密技術",
+        "isCorrect": false
+      },
+      {
+        "text": "傳輸功率",
+        "isCorrect": false
+      },
+      {
+        "text": "無線頻段",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "RF Band 指無線電頻譜中的頻段區間，決定可用頻率與法規。"
+  },
+  {
+    "type": "single",
+    "question": "IEEE 802.11b 在 2.4 GHz 頻段上的最大傳輸速率是多少？",
+    "answers": [
+      {
+        "text": "2 Mbit/s",
+        "isCorrect": false
+      },
+      {
+        "text": "11 Mbit/s",
+        "isCorrect": true
+      },
+      {
+        "text": "54 Mbit/s",
+        "isCorrect": false
+      },
+      {
+        "text": "600 Mbit/s",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "802.11b 採 DSSS/CCK，最高資料率 11Mbps（2.4GHz）。"
+  },
+  {
+    "type": "single",
+    "question": "IEEE 802.11ax 在行業稱為哪一個認證標準？",
+    "answers": [
+      {
+        "text": "Wi-Fi 4",
+        "isCorrect": false
+      },
+      {
+        "text": "Wi-Fi 5",
+        "isCorrect": false
+      },
+      {
+        "text": "Wi-Fi 6",
+        "isCorrect": true
+      },
+      {
+        "text": "Wi-Fi 7",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "802.11ax 的市場名稱為 Wi‑Fi 6（6E 為 6GHz 擴充）。"
+  }
+]

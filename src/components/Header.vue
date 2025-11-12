@@ -1,68 +1,58 @@
 <script setup lang="ts">
-import { ref, watch } from "vue";
-import { Upload } from "@element-plus/icons-vue";
-import virtualUpload from "../utils/virtualUpload";
-import { useQuiz } from "../store/useQuiz";
-import { ElMessage } from "element-plus";
-import statistic7 from "../assets/statistics-7.json";
-import statistic8 from "../assets/statistics-8.json";
-import statistic9 from "../assets/statistics-9.json";
-import statistic10 from "../assets/statistics-10.json";
-import statistic11 from "../assets/statistics-11.json";
-import statistic12 from "../assets/statistics-12.json";
+import { ref, watch } from 'vue'
+import { Upload } from '@element-plus/icons-vue'
+import virtualUpload from '../utils/virtualUpload'
+import { useQuiz } from '../store/useQuiz'
+import { ElMessage } from 'element-plus'
+import ch02_1 from '../assets/wireless/ch02-無線區域網路.json'
+import ch02_2 from '../assets/wireless/ch02-IP與Subnet概念.json'
+import ch03 from '../assets/wireless/ch03-無線隨意網路.json'
+import ch04 from '../assets/wireless/ch04-無線隨意網路.json'
+import shuffle from '../utils/shuffle'
 
 const quizLib: Record<string, Questions> = {
-  第7次測驗: statistic7 as Questions,
-  第8次測驗: statistic8 as Questions,
-  第9次測驗: statistic9 as Questions,
-  第10次測驗: statistic10 as Questions,
-  第11次測驗: statistic11 as Questions,
-  第12次測驗: statistic12 as Questions,
-};
+  'ch02-無線區域網路': ch02_1 as Questions,
+  'ch02-IP與Subnet概念': ch02_2 as Questions,
+  'ch03-無線隨意網路': ch03 as Questions,
+  'ch04-無線隨意網路': ch04 as Questions,
+}
 
-const totalQuiz = [
-  ...statistic7,
-  ...statistic8,
-  ...statistic9,
-  ...statistic10,
-  ...statistic11,
-  ...statistic12,
-];
+const totalQuiz = [...ch02_1, ...ch02_2, ...ch03, ...ch04]
+shuffle(totalQuiz)
+totalQuiz.length = 50
 
-const quizStore = useQuiz();
+const quizStore = useQuiz()
 
 const uploadQuestions = async () => {
   try {
-    const files = await virtualUpload(".json");
-    await quizStore.setData(files && files[0]);
-    ElMessage.success("upload success, now start the quiz!");
+    const files = await virtualUpload('.json')
+    await quizStore.setData(files && files[0])
+    ElMessage.success('upload success, now start the quiz!')
   } catch (error) {
-    ElMessage.error((error as Error).message);
+    ElMessage.error((error as Error).message)
   }
-};
+}
 
-const selectedQuiz = ref("");
+const selectedQuiz = ref('')
 
 watch(selectedQuiz, (quizName) => {
-  const selected = Array.isArray(quizName) ? quizName : quizLib[quizName];
-  if (selected) quizStore.status = "inProgress";
-  quizStore.setDataWithJson(selected ?? []);
-});
+  const selected = Array.isArray(quizName) ? quizName : quizLib[quizName]
+  if (selected) quizStore.status = 'inProgress'
+  quizStore.setDataWithJson(selected ?? [])
+})
 
 const submit = () => {
-  quizStore.status = "completed";
-};
+  quizStore.status = 'completed'
+}
 
 const reset = () => {
-  selectedQuiz.value = "";
-  quizStore.status = "standby";
-};
+  selectedQuiz.value = ''
+  quizStore.status = 'standby'
+}
 </script>
 
 <template>
-  <el-header
-    class="fixed z-50 w-full backdrop-blur-2xl border-b-1 border-b-gray-600"
-  >
+  <el-header class="fixed z-50 w-full backdrop-blur-2xl border-b-1 border-b-gray-600">
     <el-row :gutter="24">
       <el-col :span="6">
         <div class="flex items-center p-3">
@@ -90,12 +80,15 @@ const reset = () => {
             placeholder="Please select a quiz"
             class="mr-3"
           >
-            <el-option-group label="機率統計">
-              <el-option v-for="(_, key) in quizLib" :key="key" :value="key">{{
-                key
-              }}</el-option>
+            <el-option-group label="無線網路">
+              <el-option
+                v-for="(_, key) in quizLib"
+                :key="key"
+                :value="key"
+                >{{ key }}</el-option
+              >
             </el-option-group>
-            <el-option :value="totalQuiz">統計期末總測驗</el-option>
+            <el-option :value="totalQuiz">無線網路期中模擬測驗</el-option>
           </el-select>
           <el-button
             v-if="quizStore.status === 'inProgress'"

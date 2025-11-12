@@ -1,0 +1,784 @@
+[
+  {
+    "type": "single",
+    "question": "當 Subnet Mask 寫成 /18 時，即表示在二進位中有幾個 1？",
+    "answers": [
+      {
+        "text": "16",
+        "isCorrect": false
+      },
+      {
+        "text": "18",
+        "isCorrect": true
+      },
+      {
+        "text": "24",
+        "isCorrect": false
+      },
+      {
+        "text": "32",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "/18 表示 CIDR 前綴長度為 18，亦即遮罩有 18 個連續的 1。"
+  },
+  {
+    "type": "single",
+    "question": "子網路切割規劃中，如果使用 255.255.255.128 網路遮罩來區隔 C 級網段，每個子網路最多能分配幾個 IP 位址？",
+    "answers": [
+      {
+        "text": "64",
+        "isCorrect": false
+      },
+      {
+        "text": "128",
+        "isCorrect": true
+      },
+      {
+        "text": "256",
+        "isCorrect": false
+      },
+      {
+        "text": "512",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "255.255.255.128 為 /25，每個子網 2^(32-25)=128 個位址（含網路與廣播）。"
+  },
+  {
+    "type": "single",
+    "question": "一個私有 B 級網路可拆分成多少個 /24 子網？",
+    "answers": [
+      {
+        "text": "128",
+        "isCorrect": false
+      },
+      {
+        "text": "256",
+        "isCorrect": true
+      },
+      {
+        "text": "512",
+        "isCorrect": false
+      },
+      {
+        "text": "1024",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "B 類私網 10.0.0.0/16 切成 /24，差 8 位元，故可切 2^8=256 個子網。"
+  },
+  {
+    "type": "single",
+    "question": "下列哪一組為合法的 IPv4 位址？",
+    "answers": [
+      {
+        "text": "114.34.72.8",
+        "isCorrect": true
+      },
+      {
+        "text": "127.0.0.1",
+        "isCorrect": false
+      },
+      {
+        "text": "192.168.0.256",
+        "isCorrect": false
+      },
+      {
+        "text": "256.100.50.1",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "114.34.72.8 各八位元組皆在 0–255 之間且非保留位址；127.0.0.1 為迴路保留；含 256 皆非法。"
+  },
+  {
+    "type": "single",
+    "question": "若每個子網域期望能有 600 台電腦可以同時上網，則以子網路遮罩可設定為？",
+    "answers": [
+      {
+        "text": "255.255.252.0",
+        "isCorrect": true
+      },
+      {
+        "text": "255.255.254.0",
+        "isCorrect": false
+      },
+      {
+        "text": "255.255.255.0",
+        "isCorrect": false
+      },
+      {
+        "text": "255.255.255.128",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "需要 ≥600 主機，/23 可用 510 不足，/22 可用 1022 足夠，對應 255.255.252.0。"
+  },
+  {
+    "type": "single",
+    "question": "192.168.10.0/27 可提供多少個 IP 位址在網路主機的設備上？",
+    "answers": [
+      {
+        "text": "16",
+        "isCorrect": false
+      },
+      {
+        "text": "30",
+        "isCorrect": true
+      },
+      {
+        "text": "32",
+        "isCorrect": false
+      },
+      {
+        "text": "64",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "/27 主機位元 5 個，可用主機數 2^5-2=30。"
+  },
+  {
+    "type": "single",
+    "question": "當 IP 為 10.0.5.130/26 時，其廣播位址是？",
+    "answers": [
+      {
+        "text": "10.0.5.127",
+        "isCorrect": false
+      },
+      {
+        "text": "10.0.5.128",
+        "isCorrect": false
+      },
+      {
+        "text": "10.0.5.191",
+        "isCorrect": true
+      },
+      {
+        "text": "10.0.5.255",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "/26 遮罩 255.255.255.192，區塊大小 64；10.0.5.130 位於 10.0.5.128/26，廣播為 10.0.5.191。"
+  },
+  {
+    "type": "single",
+    "question": "若要將 Class C 網路細分為 8 個子網，子網路遮罩應為？",
+    "answers": [
+      {
+        "text": "/25",
+        "isCorrect": false
+      },
+      {
+        "text": "/26",
+        "isCorrect": false
+      },
+      {
+        "text": "/27",
+        "isCorrect": true
+      },
+      {
+        "text": "/28",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "要 8 個子網需借 3 位（2^3=8），Class C 原 /24 → /27。"
+  },
+  {
+    "type": "single",
+    "question": "若以 255.255.255.192 做為子網路遮罩來區隔網路，則每個子網域最多能有幾個 IP 位址？",
+    "answers": [
+      {
+        "text": "32",
+        "isCorrect": false
+      },
+      {
+        "text": "64",
+        "isCorrect": true
+      },
+      {
+        "text": "128",
+        "isCorrect": false
+      },
+      {
+        "text": "256",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "255.255.255.192 為 /26，每子網共有 2^(32-26)=64 個位址（含網路與廣播）。"
+  },
+  {
+    "type": "single",
+    "question": "關於子網路分割的描述，何者敘述不正確？",
+    "answers": [
+      {
+        "text": "IP 的數目可自由規劃不受影響",
+        "isCorrect": false
+      },
+      {
+        "text": "可減少封包傳送時出現碰撞的情況",
+        "isCorrect": false
+      },
+      {
+        "text": "讓不同單位使用不同子網路以方便網路管理",
+        "isCorrect": false
+      },
+      {
+        "text": "利用子網路遮罩可以分辨不同單位所使用的 IP 位址",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "子網遮罩用於區分網路/主機部分，無法『辨別單位所屬』，因此該敘述不正確。"
+  },
+  {
+    "type": "single",
+    "question": "子網路遮罩 /22 相當於？",
+    "answers": [
+      {
+        "text": "255.255.252.0",
+        "isCorrect": true
+      },
+      {
+        "text": "255.255.253.0",
+        "isCorrect": false
+      },
+      {
+        "text": "255.255.254.0",
+        "isCorrect": false
+      },
+      {
+        "text": "255.255.255.0",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "/22 的十進位遮罩為 255.255.252.0（第三個八位元 252）。"
+  },
+  {
+    "type": "single",
+    "question": "TCP 協定提供何種傳輸服務？",
+    "answers": [
+      {
+        "text": "僅多播傳輸",
+        "isCorrect": false
+      },
+      {
+        "text": "僅廣播傳輸",
+        "isCorrect": false
+      },
+      {
+        "text": "無連線且不可靠",
+        "isCorrect": false
+      },
+      {
+        "text": "連線導向且可靠傳輸",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "TCP 為連線導向並提供可靠傳輸（序號/重傳/流量控制）。"
+  },
+  {
+    "type": "single",
+    "question": "若 IP 為 10.1.2.3，子網路遮罩為 255.255.0.0，該主機所屬網路為？",
+    "answers": [
+      {
+        "text": "0.0.0.0",
+        "isCorrect": false
+      },
+      {
+        "text": "10.0.0.0",
+        "isCorrect": false
+      },
+      {
+        "text": "10.1.0.0",
+        "isCorrect": true
+      },
+      {
+        "text": "10.1.2.0",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "255.255.0.0 將前 16 位作網路，10.1.2.3 所屬網路位址為 10.1.0.0。"
+  },
+  {
+    "type": "single",
+    "question": "若 IP 為 10.1.2.3，子網路遮罩為 255.0.0.0，該主機所屬網路為？",
+    "answers": [
+      {
+        "text": "0.0.0.0",
+        "isCorrect": false
+      },
+      {
+        "text": "10.0.0.0",
+        "isCorrect": true
+      },
+      {
+        "text": "10.1.0.0",
+        "isCorrect": false
+      },
+      {
+        "text": "10.1.2.0",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "255.0.0.0 為 /8，10.1.2.3 所屬網路位址為 10.0.0.0。"
+  },
+  {
+    "type": "single",
+    "question": "OSI 模型第 3 層為何？",
+    "answers": [
+      {
+        "text": "資料鏈路層",
+        "isCorrect": false
+      },
+      {
+        "text": "網路層",
+        "isCorrect": true
+      },
+      {
+        "text": "傳輸層",
+        "isCorrect": false
+      },
+      {
+        "text": "應用層",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "OSI 第 3 層即網路層，負責路由與邏輯位址。"
+  },
+  {
+    "type": "single",
+    "question": "當 IP 為 192.168.1.10/24 時，其網路位址是？",
+    "answers": [
+      {
+        "text": "192.168.0.0",
+        "isCorrect": false
+      },
+      {
+        "text": "192.168.1.0",
+        "isCorrect": true
+      },
+      {
+        "text": "192.168.1.1",
+        "isCorrect": false
+      },
+      {
+        "text": "192.168.1.255",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "192.168.1.10/24 之網路位址為 192.168.1.0。"
+  },
+  {
+    "type": "single",
+    "question": "合併兩個 C 級網路 192.168.2.0/24 和 192.168.3.0/24 為/23 後，網路範圍為？",
+    "answers": [
+      {
+        "text": "192.168.0.0 ~ 192.168.5.255",
+        "isCorrect": false
+      },
+      {
+        "text": "192.168.2.0 ~ 192.168.2.255",
+        "isCorrect": false
+      },
+      {
+        "text": "192.168.2.0 ~ 192.168.3.255",
+        "isCorrect": true
+      },
+      {
+        "text": "192.168.5.0 ~ 192.168.5.255",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "兩個連續 /24 超網為 /23，覆蓋 192.168.2.0–192.168.3.255。"
+  },
+  {
+    "type": "single",
+    "question": "在 Windows 系統中，查詢本機完整 IP 配置指令為？",
+    "answers": [
+      {
+        "text": "netstat -r",
+        "isCorrect": false
+      },
+      {
+        "text": "ping /all",
+        "isCorrect": false
+      },
+      {
+        "text": "ifconfig -a",
+        "isCorrect": false
+      },
+      {
+        "text": "ipconfig /all",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Windows 檢視完整 IP 組態使用 ipconfig /all。"
+  },
+  {
+    "type": "single",
+    "question": "下列何者非 UDP 的特性？",
+    "answers": [
+      {
+        "text": "無連線",
+        "isCorrect": false
+      },
+      {
+        "text": "提供可靠連線",
+        "isCorrect": true
+      },
+      {
+        "text": "適用影音串流",
+        "isCorrect": false
+      },
+      {
+        "text": "資料無重傳保證",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "UDP 為無連線且不保證可靠，『提供可靠連線』並非其特性。"
+  },
+  {
+    "type": "single",
+    "question": "IP 127.0.0.1 在 TCP/IP 中代表何者？",
+    "answers": [
+      {
+        "text": "公用 DNS 伺服器",
+        "isCorrect": false
+      },
+      {
+        "text": "私有網路預設閘道",
+        "isCorrect": false
+      },
+      {
+        "text": "無線 AP 位址",
+        "isCorrect": false
+      },
+      {
+        "text": "本機迴路位址",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "127.0.0.1 為本機迴路位址，用於自我測試。"
+  },
+  {
+    "type": "single",
+    "question": "設定 IP 時，下列哪一項不是必填？",
+    "answers": [
+      {
+        "text": "IP 位址",
+        "isCorrect": false
+      },
+      {
+        "text": "預設閘道",
+        "isCorrect": false
+      },
+      {
+        "text": "子網路遮罩",
+        "isCorrect": false
+      },
+      {
+        "text": "MAC 實體位址",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "設定 IP 常見必要值為 IP/Mask/Gateway；MAC 為介面實體位址，非手動必填。"
+  },
+  {
+    "type": "single",
+    "question": "下列哪一個數字，不會出現在十進位的子網路遮罩中？",
+    "answers": [
+      {
+        "text": "252",
+        "isCorrect": false
+      },
+      {
+        "text": "253",
+        "isCorrect": true
+      },
+      {
+        "text": "254",
+        "isCorrect": false
+      },
+      {
+        "text": "255",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "子網遮罩八位元合法值為 0,128,192,224,240,248,252,254,255，253 不會出現。"
+  },
+  {
+    "type": "single",
+    "question": "當 Subnet Mask 為 255.255.255.248 時，此子網每個子網路的 IP 數量為？",
+    "answers": [
+      {
+        "text": "8",
+        "isCorrect": true
+      },
+      {
+        "text": "16",
+        "isCorrect": false
+      },
+      {
+        "text": "24",
+        "isCorrect": false
+      },
+      {
+        "text": "32",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "255.255.255.248 為 /29，每子網 2^(32-29)=8 個位址（含網路與廣播）。"
+  },
+  {
+    "type": "single",
+    "question": "192.168.5.10/28 中，其中 28 代表何者？",
+    "answers": [
+      {
+        "text": "VLAN ID",
+        "isCorrect": false
+      },
+      {
+        "text": "DNS 第一組",
+        "isCorrect": false
+      },
+      {
+        "text": "預設閘道為 192.168.5.28",
+        "isCorrect": false
+      },
+      {
+        "text": "子網路遮罩為 255.255.255.240",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "後綴 /28 代表遮罩 255.255.255.240（前 28 位為 1）。"
+  },
+  {
+    "type": "single",
+    "question": "在 192.168.32.0 的區域網路上做子網路切割，假設該子網路可用的 IP 位址數量約為 30 個，下列哪些表示方式為正確？",
+    "answers": [
+      {
+        "text": "192.168.32.0/27",
+        "isCorrect": true
+      },
+      {
+        "text": "192.168.32.0/28",
+        "isCorrect": false
+      },
+      {
+        "text": "192.168.32.0/255.255.255.240",
+        "isCorrect": false
+      },
+      {
+        "text": "192.168.32.0/255.255.255.248",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "/27 每子網 32 個位址（30 可用）可滿足約 30 主機；/28 僅 14 可用不足。"
+  },
+  {
+    "type": "single",
+    "question": "某一 IP/Subnet Mask 為 192.168.100.161/255.255.255.224，請問這個 IP 可以當作什麼用途？",
+    "answers": [
+      {
+        "text": "路由器",
+        "isCorrect": false
+      },
+      {
+        "text": "檔案伺服器",
+        "isCorrect": false
+      },
+      {
+        "text": "個人電腦主機",
+        "isCorrect": false
+      },
+      {
+        "text": "全部皆可",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "161 非網路亦非廣播位址，屬可用主機位址，可配置於任一設備。"
+  },
+  {
+    "type": "single",
+    "question": "某一 IP/Subnet Mask 為 192.168.100.128/255.255.255.224，請問這個 IP 可以當作什麼用途？",
+    "answers": [
+      {
+        "text": "代表整個網路",
+        "isCorrect": true
+      },
+      {
+        "text": "電腦主機",
+        "isCorrect": false
+      },
+      {
+        "text": "路由器",
+        "isCorrect": false
+      },
+      {
+        "text": "廣播位址",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "128 為 /27 子網的網路位址（區段 128–159），代表整個網段。"
+  },
+  {
+    "type": "single",
+    "question": "若子網路切割規劃中，如果使用連續 23 個 1 當作二進位網路遮罩，那每個子網路最多能分配幾個 IP 位址？",
+    "answers": [
+      {
+        "text": "64 個",
+        "isCorrect": false
+      },
+      {
+        "text": "128 個",
+        "isCorrect": false
+      },
+      {
+        "text": "256 個",
+        "isCorrect": false
+      },
+      {
+        "text": "512 個",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "/23 每子網共有 2^(32-23)=512 個位址（含網路與廣播）。"
+  },
+  {
+    "type": "single",
+    "question": "SOHO 網路常用哪一段做為內部私有 IP？",
+    "answers": [
+      {
+        "text": "10.0.0.0/8",
+        "isCorrect": false
+      },
+      {
+        "text": "172.16.0.0/16",
+        "isCorrect": false
+      },
+      {
+        "text": "172.31.0.0/16",
+        "isCorrect": false
+      },
+      {
+        "text": "192.168.0.0/24",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "三大私網皆可，SOHO/家用路由常預設 192.168.0.0/24。"
+  },
+  {
+    "type": "single",
+    "question": "DNS 反向解析指的是？",
+    "answers": [
+      {
+        "text": "子網路遮罩到無類別域間路由",
+        "isCorrect": false
+      },
+      {
+        "text": "網域名稱到郵件位址",
+        "isCorrect": false
+      },
+      {
+        "text": "IP 位址到 MAC 位址",
+        "isCorrect": false
+      },
+      {
+        "text": "IP 轉網域名稱",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "反向解析將 IP 反查網域名稱（PTR 紀錄）。"
+  },
+  {
+    "type": "single",
+    "question": "DNS 正向解析是指？",
+    "answers": [
+      {
+        "text": "網域名稱轉子網路識別",
+        "isCorrect": false
+      },
+      {
+        "text": "網域名稱轉 IP 位址",
+        "isCorrect": true
+      },
+      {
+        "text": "IP 轉網域名稱",
+        "isCorrect": false
+      },
+      {
+        "text": "IP 轉區段識別",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "正向解析將網域名稱解析為 IP（A/AAAA 紀錄）。"
+  },
+  {
+    "type": "single",
+    "question": "若一部電腦的IP位址為163.13.238.243，網路遮罩為255.255.255.240，則其所在網段的網路位址為？",
+    "answers": [
+      {
+        "text": "163.13.238.0",
+        "isCorrect": false
+      },
+      {
+        "text": "163.13.238.128",
+        "isCorrect": false
+      },
+      {
+        "text": "163.13.238.240",
+        "isCorrect": true
+      },
+      {
+        "text": "163.13.238.255",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "255.255.255.240 為 /28，區塊大小 16；243 落在 240–255，網路位址為 240。"
+  },
+  {
+    "type": "single",
+    "question": "IPv4 位址主要有幾個位元所組成？",
+    "answers": [
+      {
+        "text": "16 位元",
+        "isCorrect": false
+      },
+      {
+        "text": "32 位元",
+        "isCorrect": true
+      },
+      {
+        "text": "64 位元",
+        "isCorrect": false
+      },
+      {
+        "text": "128 位元",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "IPv4 長度 32 位元（4 個八位元組）。"
+  },
+  {
+    "type": "single",
+    "question": "私有 Class C 位址是哪一段？",
+    "answers": [
+      {
+        "text": "10.0.0.0/255.0.0.0",
+        "isCorrect": false
+      },
+      {
+        "text": "127.0.0.0/255.255.255.0",
+        "isCorrect": false
+      },
+      {
+        "text": "172.32.0.0/255.255.0.0",
+        "isCorrect": false
+      },
+      {
+        "text": "192.168.0.0/255.255.255.0",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "選項中僅 192.168.0.0/255.255.255.0 符合私有 Class C 的常見表示。"
+  }
+]

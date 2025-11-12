@@ -1,0 +1,1152 @@
+[
+  {
+    "type": "single",
+    "question": "使用 RSSI 進行定位時，感測器根據何種資訊估算距離？",
+    "answers": [
+      {
+        "text": "頻率",
+        "isCorrect": false
+      },
+      {
+        "text": "編碼模式",
+        "isCorrect": false
+      },
+      {
+        "text": "傳輸時間",
+        "isCorrect": false
+      },
+      {
+        "text": "收到訊號強度",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "RSSI 以接收訊號強度估距，根據路徑損耗模型將強度轉換為距離。"
+  },
+  {
+    "type": "single",
+    "question": "在無線感測網路中，何者是貪婪式路由協定所產生的缺點？",
+    "answers": [
+      {
+        "text": "無法平均使用每一個節點而降低網路的生命週期",
+        "isCorrect": false
+      },
+      {
+        "text": "只挑選最快傳輸的路徑而導致部分感測器快速耗盡電量",
+        "isCorrect": false
+      },
+      {
+        "text": "未考慮代傳點剩餘電量而可能導致代傳點沒有足夠的電力將封包傳遞出去造成封包遺失",
+        "isCorrect": false
+      },
+      {
+        "text": "全部皆是",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "貪婪路由只挑最近或最佳下一跳，易集中於少數節點，造成能量耗盡與壽命縮短。"
+  },
+  {
+    "type": "single",
+    "question": "無線感測網路的感測器主要由哪四個基本單元組成？",
+    "answers": [
+      {
+        "text": "感測單元、存儲單元、加密單元、電力供應單元",
+        "isCorrect": false
+      },
+      {
+        "text": "感測單元、處理單元、顯示單元、電力供應單元",
+        "isCorrect": false
+      },
+      {
+        "text": "感測單元、處理單元、無線傳輸單元、顯示單元",
+        "isCorrect": false
+      },
+      {
+        "text": "感測單元、處理單元、無線傳輸單元、電力供應單元",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "典型感測器由感測、處理、無線傳輸與電力供應四單元構成。"
+  },
+  {
+    "type": "single",
+    "question": "B-MAC 的缺點主要是？",
+    "answers": [
+      {
+        "text": "無法重傳",
+        "isCorrect": false
+      },
+      {
+        "text": "頻寬不足",
+        "isCorrect": false
+      },
+      {
+        "text": "需要時間同步",
+        "isCorrect": false
+      },
+      {
+        "text": "耗電與傳輸延遲高",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "B‑MAC 使用低功耗前導與採樣，代價是長前導與等待造成較高延遲與能耗。"
+  },
+  {
+    "type": "single",
+    "question": "在無線感測網路中，無線傳輸單元在感測器中主要用途是什麼？",
+    "answers": [
+      {
+        "text": "控制感測器功耗",
+        "isCorrect": false
+      },
+      {
+        "text": "處理感測資料",
+        "isCorrect": false
+      },
+      {
+        "text": "進行資料加密",
+        "isCorrect": false
+      },
+      {
+        "text": "傳送感測資料",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "無線傳輸單元負責把感測資料透過無線鏈路送出。"
+  },
+  {
+    "type": "single",
+    "question": "ZigBee在915 MHz頻段可用通道數為多少？",
+    "answers": [
+      {
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "text": "5",
+        "isCorrect": false
+      },
+      {
+        "text": "10",
+        "isCorrect": true
+      },
+      {
+        "text": "16",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "ZigBee 在 915MHz 定義 10 條可用通道。"
+  },
+  {
+    "type": "single",
+    "question": "ZigBee 在 868 MHz 頻段可用通道數為多少？",
+    "answers": [
+      {
+        "text": "1",
+        "isCorrect": true
+      },
+      {
+        "text": "5",
+        "isCorrect": false
+      },
+      {
+        "text": "10",
+        "isCorrect": false
+      },
+      {
+        "text": "16",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "ZigBee 在 868MHz 僅定義 1 條可用通道。"
+  },
+  {
+    "type": "single",
+    "question": "Zigbee 技術有何特質？",
+    "answers": [
+      {
+        "text": "高成本的無線網路技術",
+        "isCorrect": false
+      },
+      {
+        "text": "低耗電的有線傳輸技術",
+        "isCorrect": false
+      },
+      {
+        "text": "耗電卻可支援多節點的無線技術",
+        "isCorrect": false
+      },
+      {
+        "text": "低耗電支援大量節點的無線技術",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "ZigBee 強調低功耗與大量節點連結，適合物聯網/感測應用。"
+  },
+  {
+    "type": "single",
+    "question": "下列哪一項不屬於無線感測網路常見應用？",
+    "answers": [
+      {
+        "text": "環境監控",
+        "isCorrect": false
+      },
+      {
+        "text": "工業監控",
+        "isCorrect": false
+      },
+      {
+        "text": "個人健身",
+        "isCorrect": false
+      },
+      {
+        "text": "高頻金融交易",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "高頻金融交易對延遲/頻寬要求高且多為有線/蜂巢系統，非 WSN 常見應用。"
+  },
+  {
+    "type": "single",
+    "question": "下列哪一項不是感測器軟體開發平台？",
+    "answers": [
+      {
+        "text": "Eclipse",
+        "isCorrect": false
+      },
+      {
+        "text": "TinyOS IDE",
+        "isCorrect": false
+      },
+      {
+        "text": "IAR Embedded Workbench",
+        "isCorrect": false
+      },
+      {
+        "text": "Visual Studio",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Visual Studio 非 WSN 常用嵌入式/感測平台；常見如 TinyOS IDE、IAR、或通用 Eclipse。"
+  },
+  {
+    "type": "single",
+    "question": "在無線感測網路中，Range-based 定位技術不包含下列哪種？",
+    "answers": [
+      {
+        "text": "Aoa",
+        "isCorrect": false
+      },
+      {
+        "text": "TDoa",
+        "isCorrect": false
+      },
+      {
+        "text": "RSSI",
+        "isCorrect": false
+      },
+      {
+        "text": "RIP",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Range‑based 依量測距離/角度，如 RSSI、TDoA、AoA；RIP 為路由協定。"
+  },
+  {
+    "type": "single",
+    "question": "在 Zigbee 網路中，coordinator 會定時發出 beacon 來同步裝置，哪種網路拓撲沒有此功能？",
+    "answers": [
+      {
+        "text": "星狀",
+        "isCorrect": false
+      },
+      {
+        "text": "樹狀",
+        "isCorrect": false
+      },
+      {
+        "text": "網狀",
+        "isCorrect": false
+      },
+      {
+        "text": "環狀",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "ZigBee Beacon 模式由協調者定期廣播同步；環狀拓撲非 ZigBee 規範拓撲。"
+  },
+  {
+    "type": "single",
+    "question": "在 B-MAC 中，傳送者會持續發送何種封包？",
+    "answers": [
+      {
+        "text": "Poll",
+        "isCorrect": false
+      },
+      {
+        "text": "ACK",
+        "isCorrect": false
+      },
+      {
+        "text": "Beacon",
+        "isCorrect": false
+      },
+      {
+        "text": "Preamble",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "B‑MAC 發送端持續送長前導（Preamble）以等待接收端採樣醒來。"
+  },
+  {
+    "type": "single",
+    "question": "在 ZigBee 的 Non-Beacon Mode 中，使用哪種機制競爭傳輸？",
+    "answers": [
+      {
+        "text": "FDMA 方式",
+        "isCorrect": false
+      },
+      {
+        "text": "TDMA 方式",
+        "isCorrect": false
+      },
+      {
+        "text": "使用 OFDMA 方式",
+        "isCorrect": false
+      },
+      {
+        "text": "類似 CSMA/CA 方式",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Non‑Beacon Mode 競爭式存取，採 CSMA/CA 類機制。"
+  },
+  {
+    "type": "single",
+    "question": "為何感測器通常以電池作為電力來源？",
+    "answers": [
+      {
+        "text": "電池重量輕",
+        "isCorrect": false
+      },
+      {
+        "text": "電池易於更換",
+        "isCorrect": false
+      },
+      {
+        "text": "電池容量比外部電源大",
+        "isCorrect": false
+      },
+      {
+        "text": "降低佈建成本且無法插電",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "感測節點多散佈環境中無法供電，電池可降低佈建成本。"
+  },
+  {
+    "type": "single",
+    "question": "感測器微作業系統 TinyOS 的主要開發單位是哪裡？",
+    "answers": [
+      {
+        "text": "MIT",
+        "isCorrect": false
+      },
+      {
+        "text": "CMU",
+        "isCorrect": false
+      },
+      {
+        "text": "Stanford",
+        "isCorrect": false
+      },
+      {
+        "text": "UC Berkeley",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "TinyOS 由 UC Berkeley 主導開發，專為感測器網路的事件驅動系統。"
+  },
+  {
+    "type": "single",
+    "question": "在無線感測網路之目標物覆蓋（Target Coverage）中，Sweep Coverage 又稱為？",
+    "answers": [
+      {
+        "text": "Area Coverage",
+        "isCorrect": false
+      },
+      {
+        "text": "Barrier Coverage",
+        "isCorrect": false
+      },
+      {
+        "text": "Spatial Coverage",
+        "isCorrect": false
+      },
+      {
+        "text": "Temporal Coverage",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Sweep/Temporal Coverage 要求在時間維度上週期性覆蓋目標。"
+  },
+  {
+    "type": "single",
+    "question": "在無線感測網路之資料收集 Mobile Data Mule 模式下，資料收集站會拜訪何者？",
+    "answers": [
+      {
+        "text": "所有節點",
+        "isCorrect": false
+      },
+      {
+        "text": "Sink",
+        "isCorrect": false
+      },
+      {
+        "text": "Anchor",
+        "isCorrect": false
+      },
+      {
+        "text": "Cluster Head",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Mobile Data Mule 會移動至叢集首（Cluster Head）收集彙整後資料。"
+  },
+  {
+    "type": "single",
+    "question": "在無線感測網路路徑協定中，最基本且最不需維護拓撲的方法是？",
+    "answers": [
+      {
+        "text": "Gossiping",
+        "isCorrect": false
+      },
+      {
+        "text": "GPSR",
+        "isCorrect": false
+      },
+      {
+        "text": "AODV",
+        "isCorrect": false
+      },
+      {
+        "text": "Flooding",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Flooding 最基本不需維護拓撲，僅將封包泛洪轉送。"
+  },
+  {
+    "type": "single",
+    "question": "在無線感測網路之 Barrier Coverage 主要監控何種概念？",
+    "answers": [
+      {
+        "text": "點",
+        "isCorrect": false
+      },
+      {
+        "text": "線",
+        "isCorrect": true
+      },
+      {
+        "text": "面",
+        "isCorrect": false
+      },
+      {
+        "text": "時間",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Barrier Coverage 著重防線（線）之穿越偵測能力。"
+  },
+  {
+    "type": "single",
+    "question": "在邊緣式路由中，使用何種法則繞過障礙區？",
+    "answers": [
+      {
+        "text": "最短路徑法則",
+        "isCorrect": false
+      },
+      {
+        "text": "泥濘法則",
+        "isCorrect": false
+      },
+      {
+        "text": "左手法則",
+        "isCorrect": false
+      },
+      {
+        "text": "右手法則",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "邊緣式繞徑常用右手法則沿障礙邊界前進以繞過空洞。"
+  },
+  {
+    "type": "single",
+    "question": "在 2.4GHz 全球頻段中，ZigBee 實體層支援的理論速率為？",
+    "answers": [
+      {
+        "text": "20kbps",
+        "isCorrect": false
+      },
+      {
+        "text": "40kbps",
+        "isCorrect": false
+      },
+      {
+        "text": "100kbps",
+        "isCorrect": false
+      },
+      {
+        "text": "250kbps",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "IEEE 802.15.4 在 2.4GHz 物理層資料率為 250kbps。"
+  },
+  {
+    "type": "single",
+    "question": "在實作感測網路時，因為容易受到環境以及軟硬體設備等影響，因此需要哪方面的考量？",
+    "answers": [
+      {
+        "text": "省電機制",
+        "isCorrect": false
+      },
+      {
+        "text": "感測網路的傳輸介質",
+        "isCorrect": false
+      },
+      {
+        "text": "無線感測網路的網路拓樸",
+        "isCorrect": false
+      },
+      {
+        "text": "全部皆是",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "實作需同時考量省電、媒介/拓撲與環境影響，三者皆重要。"
+  },
+  {
+    "type": "single",
+    "question": "以下哪一項不屬於 ZigBee 主要應用領域？",
+    "answers": [
+      {
+        "text": "智慧電網",
+        "isCorrect": false
+      },
+      {
+        "text": "智慧醫療",
+        "isCorrect": false
+      },
+      {
+        "text": "智慧生活",
+        "isCorrect": false
+      },
+      {
+        "text": "高頻交易",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "ZigBee 主要應用為智慧家庭/電網/醫療等，非高頻交易。"
+  },
+  {
+    "type": "single",
+    "question": "在無線感測網路中，感測單元中的訊號轉換元件主要負責什麼？",
+    "answers": [
+      {
+        "text": "放大類比訊號",
+        "isCorrect": false
+      },
+      {
+        "text": "儲存感測到的資料",
+        "isCorrect": false
+      },
+      {
+        "text": "將數位訊號轉為類比訊號",
+        "isCorrect": false
+      },
+      {
+        "text": "將類比訊號轉為數位訊號",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "訊號轉換器（ADC）將感測到的類比訊號轉為數位資料。"
+  },
+  {
+    "type": "single",
+    "question": "感測器的硬體設計主要由四個基本部分所組成，下列何者為非？",
+    "answers": [
+      {
+        "text": "感測單位",
+        "isCorrect": false
+      },
+      {
+        "text": "處理單位",
+        "isCorrect": false
+      },
+      {
+        "text": "電力供應單位",
+        "isCorrect": false
+      },
+      {
+        "text": "韌體單位",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "感測器四大部分不含『韌體單位』；韌體屬軟體。"
+  },
+  {
+    "type": "single",
+    "question": "在無線感測網路中，處理單元內的儲存元件功能最類似於哪一項？",
+    "answers": [
+      {
+        "text": "CPU",
+        "isCorrect": false
+      },
+      {
+        "text": "網路卡",
+        "isCorrect": false
+      },
+      {
+        "text": "記憶體",
+        "isCorrect": false
+      },
+      {
+        "text": "硬碟",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "處理單元的儲存元件功能類似永久儲存（如快閃/外部儲存），對應硬碟概念。"
+  },
+  {
+    "type": "single",
+    "question": "下列何者為 ZigBee 不適用之場景？",
+    "answers": [
+      {
+        "text": "感測無線網路",
+        "isCorrect": false
+      },
+      {
+        "text": "金門大橋監控",
+        "isCorrect": false
+      },
+      {
+        "text": "家庭自動化",
+        "isCorrect": false
+      },
+      {
+        "text": "數位學習",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "ZigBee 適用低速短距離與自組網，數位學習非場景判準。"
+  },
+  {
+    "type": "single",
+    "question": "在 ZigBee 規定下，Beacon Mode 的活動區間，又可細分為何？",
+    "answers": [
+      {
+        "text": "ASK 與 FSK",
+        "isCorrect": false
+      },
+      {
+        "text": "SIFS 與 DIFS",
+        "isCorrect": false
+      },
+      {
+        "text": "信標與非信標",
+        "isCorrect": false
+      },
+      {
+        "text": "競爭區間與免競爭區間",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Beacon 模式之超幀分為 CAP（競爭）與 CFP（免競爭）區間。"
+  },
+  {
+    "type": "single",
+    "question": "Asynchronous MAC protocols 不需要什麼條件？",
+    "answers": [
+      {
+        "text": "Preamble",
+        "isCorrect": false
+      },
+      {
+        "text": "RTS/CTS",
+        "isCorrect": false
+      },
+      {
+        "text": "頻譜管理",
+        "isCorrect": false
+      },
+      {
+        "text": "時間同步",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "非同步 MAC 不要求全網時鐘同步。"
+  },
+  {
+    "type": "single",
+    "question": "在無線感測網路省電機制中，Duty Cycle 機制的核心在於？",
+    "answers": [
+      {
+        "text": "Beacon 同步",
+        "isCorrect": false
+      },
+      {
+        "text": "多路存取",
+        "isCorrect": false
+      },
+      {
+        "text": "路由重建",
+        "isCorrect": false
+      },
+      {
+        "text": "醒睡週期管理",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Duty Cycle 管理醒/睡週期以降低平均耗電。"
+  },
+  {
+    "type": "single",
+    "question": "感測器本身的硬體設計具有哪個優點？",
+    "answers": [
+      {
+        "text": "體積小",
+        "isCorrect": false
+      },
+      {
+        "text": "高效能",
+        "isCorrect": false
+      },
+      {
+        "text": "成本低廉",
+        "isCorrect": false
+      },
+      {
+        "text": "全部皆是",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "感測器小型化、低成本且可大量佈建，三者皆成立。"
+  },
+  {
+    "type": "single",
+    "question": "在無線感測網路中，固定式感測器資料收集繞徑樹的根節點通常是？",
+    "answers": [
+      {
+        "text": "mobile node",
+        "isCorrect": false
+      },
+      {
+        "text": "Cluster Head",
+        "isCorrect": false
+      },
+      {
+        "text": "Sink",
+        "isCorrect": true
+      },
+      {
+        "text": "Anchor",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "固定式收集以 Sink 為根建資料收集樹。"
+  },
+  {
+    "type": "single",
+    "question": "在無線感測網路繞徑協定中，Gossiping 相較 Flooding 的優點為？",
+    "answers": [
+      {
+        "text": "傳輸更快",
+        "isCorrect": false
+      },
+      {
+        "text": "必定可靠",
+        "isCorrect": false
+      },
+      {
+        "text": "使用更少電力",
+        "isCorrect": false
+      },
+      {
+        "text": "減少重複封包",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Gossiping 隨機轉發避免全面泛洪，減少重複封包。"
+  },
+  {
+    "type": "single",
+    "question": "下列哪一種通訊的標準可以作為支援無線感測網路間通訊的一套規範？",
+    "answers": [
+      {
+        "text": "IEEE 802.20",
+        "isCorrect": false
+      },
+      {
+        "text": "IEEE 802.11g",
+        "isCorrect": false
+      },
+      {
+        "text": "IEEE 802.11n",
+        "isCorrect": false
+      },
+      {
+        "text": "IEEE 802.15.4",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "WSN 之實體層/MAC 依循 IEEE 802.15.4 規範。"
+  },
+  {
+    "type": "single",
+    "question": "討論無線感測網路覆蓋率時，通常會分成三種覆蓋類型，下列何者不屬於其中之一？",
+    "answers": [
+      {
+        "text": "Area Coverage",
+        "isCorrect": false
+      },
+      {
+        "text": "Barrier Coverage",
+        "isCorrect": false
+      },
+      {
+        "text": "Point Coverage",
+        "isCorrect": false
+      },
+      {
+        "text": "Line Coverage",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "常見覆蓋型態為 Area/Barrier/Point；Line Coverage 非標準分類。"
+  },
+  {
+    "type": "single",
+    "question": "在無線感測網路中，Range-free 定位技術仰賴何者協助定位？",
+    "answers": [
+      {
+        "text": "Anchor",
+        "isCorrect": true
+      },
+      {
+        "text": "Beacon",
+        "isCorrect": false
+      },
+      {
+        "text": "GPS",
+        "isCorrect": false
+      },
+      {
+        "text": "Sink",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Range‑free 仰賴少數已知位置的錨點（Anchor）協助定位。"
+  },
+  {
+    "type": "single",
+    "question": "為什麼WSN在電源管理機制下需要有同步機制？",
+    "answers": [
+      {
+        "text": "要讓每一部工作站在送收和框時一起醒來",
+        "isCorrect": false
+      },
+      {
+        "text": "要校對每一台工作站的時間讓所有的工作站系統時鐘一致",
+        "isCorrect": false
+      },
+      {
+        "text": "可以讓工作站在不需要接收和框時進入睡眠模式以節省電力",
+        "isCorrect": false
+      },
+      {
+        "text": "全部都是",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "同步讓節點同時醒來收發並在空檔睡眠，三項理由皆成立。"
+  },
+  {
+    "type": "single",
+    "question": "Sensor Network之實體層與媒體存取控制層遵守以下哪個規範？",
+    "answers": [
+      {
+        "text": "IEEE 802.15.4",
+        "isCorrect": true
+      },
+      {
+        "text": "IEEE 802.16",
+        "isCorrect": false
+      },
+      {
+        "text": "IEEE 802.3",
+        "isCorrect": false
+      },
+      {
+        "text": "IEEE 802.20",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Sensor Network 低層協定遵循 IEEE 802.15.4。"
+  },
+  {
+    "type": "single",
+    "question": "在無線感測網路之 Area Coverage 中，Spatial Coverage 要求為何？",
+    "answers": [
+      {
+        "text": "週期監控",
+        "isCorrect": false
+      },
+      {
+        "text": "隨機抽樣",
+        "isCorrect": false
+      },
+      {
+        "text": "只需部分區域",
+        "isCorrect": false
+      },
+      {
+        "text": "任意時間均被覆蓋",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Spatial Coverage 要求任意時間整個區域皆被覆蓋。"
+  },
+  {
+    "type": "single",
+    "question": "無線感測網路中，儲存元件 (Storage) 是屬於感測器哪一部分的成員？",
+    "answers": [
+      {
+        "text": "感測單位",
+        "isCorrect": false
+      },
+      {
+        "text": "處理單位",
+        "isCorrect": true
+      },
+      {
+        "text": "無線傳輸單位",
+        "isCorrect": false
+      },
+      {
+        "text": "電力供應單位",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "儲存元件屬處理單位（CPU/記憶體/儲存）。"
+  },
+  {
+    "type": "single",
+    "question": "下列何者為 WSN 系統的成功關鍵？",
+    "answers": [
+      {
+        "text": "環境及系統穩定性",
+        "isCorrect": false
+      },
+      {
+        "text": "無線感測傳輸模組",
+        "isCorrect": false
+      },
+      {
+        "text": "韌體與軟體程式",
+        "isCorrect": false
+      },
+      {
+        "text": "全部皆是",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "WSN 成功仰賴環境/系統穩定、硬體與軟韌體等整體協同。"
+  },
+  {
+    "type": "single",
+    "question": "下列關於貪婪式路由協定 (Greedy perimeter stateless routing，GPSR) 的描述何者錯誤？",
+    "answers": [
+      {
+        "text": "偵測到事件的感測器自然可以透過鄰居節點與資料收集站的位置比較而計算出距離資料收集站最近的傳遞方向",
+        "isCorrect": false
+      },
+      {
+        "text": "建構方式不需要所有感測器知道自己位置",
+        "isCorrect": true
+      },
+      {
+        "text": "著重在選擇離資料收集站最短的距離",
+        "isCorrect": false
+      },
+      {
+        "text": "以最少跳躍次數作為下一步的傳送節點",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "GPSR 需節點位置資訊；敘述『不需要知道位置』錯誤。"
+  },
+  {
+    "type": "single",
+    "question": "ZigBee 支援下列哪三種網路拓撲？",
+    "answers": [
+      {
+        "text": "星型、網狀、叢集樹狀",
+        "isCorrect": true
+      },
+      {
+        "text": "星型、環狀、樹型",
+        "isCorrect": false
+      },
+      {
+        "text": "Aloha、TDMA、CDMA",
+        "isCorrect": false
+      },
+      {
+        "text": "Ad-Hoc、Infrastructure、Mesh",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "ZigBee 支援星狀、叢集樹狀與網狀三種拓撲。"
+  },
+  {
+    "type": "single",
+    "question": "ZigBee 裝置對裝置傳輸時，下列哪種模式會先執行 RTS/CTS？",
+    "answers": [
+      {
+        "text": "Cluster Mode",
+        "isCorrect": false
+      },
+      {
+        "text": "Mesh Mode",
+        "isCorrect": false
+      },
+      {
+        "text": "Non-Beacon Mode",
+        "isCorrect": false
+      },
+      {
+        "text": "Beacon Mode",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Beacon 模式以超幀與 GTS/RTS/CTS 管理，需先進行 RTS/CTS。"
+  },
+  {
+    "type": "single",
+    "question": "GPSR 路由協定在挑選下一跳節點的依據通常為？",
+    "answers": [
+      {
+        "text": "最低延遲",
+        "isCorrect": false
+      },
+      {
+        "text": "最少跳躍數",
+        "isCorrect": false
+      },
+      {
+        "text": "最大剩餘電量",
+        "isCorrect": false
+      },
+      {
+        "text": "距離 Sink 最近",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "GPSR 依幾何距離選擇下一跳，傾向距離 Sink 更近者。"
+  },
+  {
+    "type": "single",
+    "question": "ZigBee 全功能裝置不具備哪項功能？",
+    "answers": [
+      {
+        "text": "任務協調者",
+        "isCorrect": false
+      },
+      {
+        "text": "支援任何拓撲",
+        "isCorrect": false
+      },
+      {
+        "text": "與任何裝置通訊",
+        "isCorrect": false
+      },
+      {
+        "text": "只能與簡化功能裝置通訊",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "全功能裝置（FFD）可與任何裝置通訊；『只能與 RFD 通訊』錯誤。"
+  },
+  {
+    "type": "single",
+    "question": "Synchronous MAC protocols 主要要求節點必須？",
+    "answers": [
+      {
+        "text": "定期時間同步",
+        "isCorrect": true
+      },
+      {
+        "text": "使用多通道",
+        "isCorrect": false
+      },
+      {
+        "text": "持續監聽",
+        "isCorrect": false
+      },
+      {
+        "text": "隨機後退",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "同步式 MAC 需定期時間同步以對齊醒/睡與傳輸排程。"
+  },
+  {
+    "type": "single",
+    "question": "ZigBee 所採用的 IEEE 標準是哪一個？",
+    "answers": [
+      {
+        "text": "802.11",
+        "isCorrect": false
+      },
+      {
+        "text": "802.15.1",
+        "isCorrect": false
+      },
+      {
+        "text": "802.15.4",
+        "isCorrect": true
+      },
+      {
+        "text": "802.16",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "ZigBee 核心標準為 IEEE 802.15.4（PHY/MAC）。"
+  },
+  {
+    "type": "single",
+    "question": "陀螺儀可利用來做何種功能？",
+    "answers": [
+      {
+        "text": "偵測物體速度",
+        "isCorrect": false
+      },
+      {
+        "text": "測量物體重量",
+        "isCorrect": false
+      },
+      {
+        "text": "計算移動距離",
+        "isCorrect": false
+      },
+      {
+        "text": "感測與維持方向",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "陀螺儀量測角速度以維持/感測方向姿態。"
+  }
+]

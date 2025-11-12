@@ -1,0 +1,1129 @@
+[
+  {
+    "type": "single",
+    "question": "在無線網路中，Polling 存取方式的主要缺點是？",
+    "answers": [
+      {
+        "text": "避免衝突能力弱",
+        "isCorrect": false
+      },
+      {
+        "text": "需要隨機等待",
+        "isCorrect": false
+      },
+      {
+        "text": "無法順序訪問",
+        "isCorrect": false
+      },
+      {
+        "text": "主節點故障即整網失效",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "輪詢由中心節點掌控媒體，主節點故障即無法排程，整網中斷。"
+  },
+  {
+    "type": "single",
+    "question": "CDMA 的核心概念在於？",
+    "answers": [
+      {
+        "text": "隨機存取",
+        "isCorrect": false
+      },
+      {
+        "text": "切割頻段",
+        "isCorrect": false
+      },
+      {
+        "text": "分割時間",
+        "isCorrect": false
+      },
+      {
+        "text": "以正交編碼區隔用戶",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "CDMA 以互相（近似）正交的碼片序列區隔使用者，降低多址干擾。"
+  },
+  {
+    "type": "single",
+    "question": "在無線隨意網路之 Dynamic Channel Allocation (DCA) 流程中，節點 A 先發送哪種訊框以詢問通道？",
+    "answers": [
+      {
+        "text": "CTS",
+        "isCorrect": false
+      },
+      {
+        "text": "DATA",
+        "isCorrect": false
+      },
+      {
+        "text": "RES",
+        "isCorrect": false
+      },
+      {
+        "text": "RTS",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "DCA 先在控制通道以 RTS 詢問並預約可用資料通道。"
+  },
+  {
+    "type": "single",
+    "question": "下列何者是主動式路由策略？",
+    "answers": [
+      {
+        "text": "Ad hoc On-demand Distance Vector (AODV)",
+        "isCorrect": false
+      },
+      {
+        "text": "Dynamic Source Routing (DSR)",
+        "isCorrect": false
+      },
+      {
+        "text": "Temporally Ordered Routing Algorithm (TORA)",
+        "isCorrect": false
+      },
+      {
+        "text": "距離向量路由 Destination-Sequenced Distance-Vector（DSDV）",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "DSDV 為主動式（Proactive）距離向量協定；AODV/DSR 為回應式，TORA 為分散式反應。"
+  },
+  {
+    "type": "single",
+    "question": "下列關於回應式路由策略那一項不正確？",
+    "answers": [
+      {
+        "text": "不事先計算路徑，有需要時再尋找路徑。",
+        "isCorrect": false
+      },
+      {
+        "text": "又稱為 On-demand Routing",
+        "isCorrect": false
+      },
+      {
+        "text": "英文名稱為 Reactive Routing",
+        "isCorrect": false
+      },
+      {
+        "text": "英文名稱為 Proactive Routing",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Reactive/On‑demand 即回應式，非 Proactive；敘述把英文名稱說成 Proactive 錯誤。"
+  },
+  {
+    "type": "single",
+    "question": "在無線隨意網路中，DSDV 每次完整式路由更新會做什麼動作？",
+    "answers": [
+      {
+        "text": "只更新差異路由",
+        "isCorrect": false
+      },
+      {
+        "text": "停止路由探索",
+        "isCorrect": false
+      },
+      {
+        "text": "僅更新序列編號",
+        "isCorrect": false
+      },
+      {
+        "text": "廣播全部路由表",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "DSDV 週期性散播完整路由表以維持最新路由。"
+  },
+  {
+    "type": "single",
+    "question": "CSMA 偵測的機制分為 Non-persistent CSMA 與 Persistent CSMA，哪一種理論上會比較耗電？",
+    "answers": [
+      {
+        "text": "二者無從比較",
+        "isCorrect": false
+      },
+      {
+        "text": "二者差不多",
+        "isCorrect": false
+      },
+      {
+        "text": "Non-persistent CSMA",
+        "isCorrect": false
+      },
+      {
+        "text": "Persistent CSMA",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Persistent 會持續感測等待媒體閒置而立即傳送，耗用較多能量。"
+  },
+  {
+    "type": "single",
+    "question": "關於電源管理和電力控制的描述，下列何者不正確？",
+    "answers": [
+      {
+        "text": "電力控制的英文是 Power Control",
+        "isCorrect": false
+      },
+      {
+        "text": "電源管理的英文是 Power Management",
+        "isCorrect": false
+      },
+      {
+        "text": "電源管理在手機處於長期待機狀態時進入睡眠模式以節省電力",
+        "isCorrect": false
+      },
+      {
+        "text": "電源管理動態調整發送封包的電力以節省電力",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "動態調整發射功率屬 Power Control；Power Management 著重醒睡與工作週期管理。"
+  },
+  {
+    "type": "single",
+    "question": "在 IEEE 802.11 Power Save Mode 之 BASIC 協定中，節點根據哪個訊框決定 DATA 所需最小電力？",
+    "answers": [
+      {
+        "text": "RTS",
+        "isCorrect": false
+      },
+      {
+        "text": "CTS",
+        "isCorrect": true
+      },
+      {
+        "text": "DATA",
+        "isCorrect": false
+      },
+      {
+        "text": "ACK",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "在 BASIC PSM，依接收端回覆之 CTS（或其訊號強度）估算資料傳輸所需最小功率。"
+  },
+  {
+    "type": "single",
+    "question": "假設某一發射資料的行動台正交編碼為 01011100，而接收台在接收時收到 (-4+0-2+0+2+0+2-2，-1+1-3+3+1-1+1+1)，所得知該行動台送出位元資料為？",
+    "answers": [
+      {
+        "text": "00",
+        "isCorrect": false
+      },
+      {
+        "text": "01",
+        "isCorrect": false
+      },
+      {
+        "text": "10",
+        "isCorrect": false
+      },
+      {
+        "text": "11",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "正交碼與接收序列做相關（內積）僅對應使用者為非零，兩位元結果對應『11』。"
+  },
+  {
+    "type": "single",
+    "question": "在無線網路之多通道協定中，Common Hopping 解決了哪種問題？",
+    "answers": [
+      {
+        "text": "APSD",
+        "isCorrect": false
+      },
+      {
+        "text": "MPR 廣播負擔",
+        "isCorrect": false
+      },
+      {
+        "text": "跳數限制",
+        "isCorrect": false
+      },
+      {
+        "text": "隱藏終端點",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "共同跳躍讓所有節點同步到同一通道，降低彼此聽不見而造成的隱藏終端。"
+  },
+  {
+    "type": "single",
+    "question": "在無線隨意網路中，共同跳躍（Common Hopping）機制的特點是在何時切換通道？",
+    "answers": [
+      {
+        "text": "只有 MPR 節點切換",
+        "isCorrect": false
+      },
+      {
+        "text": "每個節點獨立切換",
+        "isCorrect": false
+      },
+      {
+        "text": "僅在睡眠模式下切換",
+        "isCorrect": false
+      },
+      {
+        "text": "所有節點同步切換",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Common Hopping 設計為全網節點同步一起切換通道，維持共視。"
+  },
+  {
+    "type": "single",
+    "question": "在 Ad Hoc 網路省電協定中，睡眠工作站由何者暫存封包？",
+    "answers": [
+      {
+        "text": "自己",
+        "isCorrect": false
+      },
+      {
+        "text": "其他睡眠站",
+        "isCorrect": false
+      },
+      {
+        "text": "無線基地台",
+        "isCorrect": false
+      },
+      {
+        "text": "鄰近醒著的工作站",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "省電時鄰近清醒節點暫存封包，待睡眠節點醒來再轉交。"
+  },
+  {
+    "type": "single",
+    "question": "在 IEEE 802.11 Power Save Mode 中，AP 透過何種信息告知有封包緩衝給睡眠工作站？",
+    "answers": [
+      {
+        "text": "RES",
+        "isCorrect": false
+      },
+      {
+        "text": "Beacon",
+        "isCorrect": false
+      },
+      {
+        "text": "DTIM",
+        "isCorrect": false
+      },
+      {
+        "text": "TIM",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "AP 以 TIM（Traffic Indication Map）告知哪些工作站有緩衝資料。"
+  },
+  {
+    "type": "single",
+    "question": "在無線隨意網路之多點跳躍（Multihop）技術主要用於何種需求？",
+    "answers": [
+      {
+        "text": "降低電力消耗",
+        "isCorrect": false
+      },
+      {
+        "text": "加密傳輸內容",
+        "isCorrect": false
+      },
+      {
+        "text": "提升單一跳傳輸速率",
+        "isCorrect": false
+      },
+      {
+        "text": "中繼封包至不在範圍內的節點",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Multihop 讓中繼轉送抵達超出單一跳覆蓋的節點。"
+  },
+  {
+    "type": "single",
+    "question": "在無線隨意網路中，主動式路由協定的特性是？",
+    "answers": [
+      {
+        "text": "完全不維護路由",
+        "isCorrect": false
+      },
+      {
+        "text": "僅支援單跳來搜尋路由",
+        "isCorrect": false
+      },
+      {
+        "text": "僅在需要時才搜尋路由",
+        "isCorrect": false
+      },
+      {
+        "text": "定期維護全部路由資訊",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "主動式協定定期維護全域路由資訊，換取即時可用。"
+  },
+  {
+    "type": "single",
+    "question": "在無線隨意網路中，Dynamic Source Routing (DSR) 協定之路由資訊附加於何處？",
+    "answers": [
+      {
+        "text": "MAC 表頭",
+        "isCorrect": false
+      },
+      {
+        "text": "RTS/CTS 欄位",
+        "isCorrect": false
+      },
+      {
+        "text": "序列編號欄位",
+        "isCorrect": false
+      },
+      {
+        "text": "資料封包的表頭",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "DSR 採源路由，完整路徑附於資料封包表頭中。"
+  },
+  {
+    "type": "single",
+    "question": "下列哪一種屬於組合式 FDMA/TDMA 存取？",
+    "answers": [
+      {
+        "text": "Polling",
+        "isCorrect": false
+      },
+      {
+        "text": "Aloha",
+        "isCorrect": false
+      },
+      {
+        "text": "CSMA/CA",
+        "isCorrect": false
+      },
+      {
+        "text": "Hybrid FDMA/TDMA",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Hybrid FDMA/TDMA 將頻寬與時間共同切割，多工多使用者。"
+  },
+  {
+    "type": "single",
+    "question": "假設某行動台正交編碼為00011011，發出編碼（+1+1+1-1-1+1-1-1 ，-1-1-1+1+1-1+1+1）後，而接收台在接收時與該行動台之正交編碼做內積，所得知該行動台送出位元資料為？",
+    "answers": [
+      {
+        "text": "00",
+        "isCorrect": false
+      },
+      {
+        "text": "01",
+        "isCorrect": true
+      },
+      {
+        "text": "10",
+        "isCorrect": false
+      },
+      {
+        "text": "11",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "與目標碼做內積僅該使用者得到顯著相關量，判決為『01』。"
+  },
+  {
+    "type": "single",
+    "question": "下列哪一項是廣播風暴（Broadcast Storm）問題的主要原因？",
+    "answers": [
+      {
+        "text": "TIM 更新延遲",
+        "isCorrect": false
+      },
+      {
+        "text": "RTS/CTS 握手失敗",
+        "isCorrect": false
+      },
+      {
+        "text": "多通道切換不同步",
+        "isCorrect": false
+      },
+      {
+        "text": "重複重播過多廣播封包",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "廣播風暴源於節點對同一訊息的重複泛洪與重播，造成爆量碰撞。"
+  },
+  {
+    "type": "single",
+    "question": "在無線隨意網路之路由探索（Route Discovery）過程中，用於廣播路由請求的訊息簡稱為？",
+    "answers": [
+      {
+        "text": "RTS",
+        "isCorrect": false
+      },
+      {
+        "text": "RERR",
+        "isCorrect": false
+      },
+      {
+        "text": "RREP",
+        "isCorrect": false
+      },
+      {
+        "text": "RREQ",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "路由探索以 RREQ 廣播發起，收到後才以 RREP 回覆建立路徑。"
+  },
+  {
+    "type": "single",
+    "question": "在無線隨意網路中，TORA 協定中，用以建立無迴圈路徑的圖形結構稱為？",
+    "answers": [
+      {
+        "text": "Router Tree",
+        "isCorrect": false
+      },
+      {
+        "text": "Flooded Graph",
+        "isCorrect": false
+      },
+      {
+        "text": "Minimum Spanning Tree",
+        "isCorrect": false
+      },
+      {
+        "text": "Destination-Oriented Directed Acyclic Graph",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "TORA 建立指向目的的有向無環圖（Destination‑Oriented DAG）避免迴圈。"
+  },
+  {
+    "type": "single",
+    "question": "請問下列何者敘述錯誤？",
+    "answers": [
+      {
+        "text": "無線網路免費頻段為 2.4GHz",
+        "isCorrect": false
+      },
+      {
+        "text": "在防範天災方面，無線衛星網路的穩定性較差",
+        "isCorrect": true
+      },
+      {
+        "text": "無線衛星通訊在偵查、定位、導航及通訊上廣泛被使用",
+        "isCorrect": false
+      },
+      {
+        "text": "無線區域網路中的隨建即連模式無須透過 Access Point 即可連線",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "衛星系統在災害救援反而可提供備援，稱其穩定性較差不正確。"
+  },
+  {
+    "type": "single",
+    "question": "在 CDMA 中，若兩個編碼為正交，則它們的內積結果應為？",
+    "answers": [
+      {
+        "text": "任意值",
+        "isCorrect": false
+      },
+      {
+        "text": "-1",
+        "isCorrect": false
+      },
+      {
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "text": "0",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "正交碼之互相關為 0，彼此內積為 0。"
+  },
+  {
+    "type": "single",
+    "question": "在 IEEE 802.11 Power Save Mode 中，Power Control 協定的目的是何者？",
+    "answers": [
+      {
+        "text": "提高序列編號",
+        "isCorrect": false
+      },
+      {
+        "text": "加速 RTS/CTS 握手",
+        "isCorrect": false
+      },
+      {
+        "text": "增加 MPR 節點數量",
+        "isCorrect": false
+      },
+      {
+        "text": "動態調整傳輸功率以節省能量",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Power Control 目標是依鏈路狀況動態調整發射功率以省電並減少干擾。"
+  },
+  {
+    "type": "single",
+    "question": "將通訊的頻道分成多個時槽（Time Slot）以供多人使用的方式稱為？",
+    "answers": [
+      {
+        "text": "CDMA",
+        "isCorrect": false
+      },
+      {
+        "text": "FDMA",
+        "isCorrect": false
+      },
+      {
+        "text": "TDMA",
+        "isCorrect": true
+      },
+      {
+        "text": "OFDMA",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "時間分多工稱 TDMA：將通道切為時槽分配給不同使用者。"
+  },
+  {
+    "type": "single",
+    "question": "距離向量路由由協定 DBF（Distributed Bellman-Ford）傳輸時有什麼問題，使得資源造成不必要的浪費？",
+    "answers": [
+      {
+        "text": "傳送訊框時會造成成資料內容碰撞而造成資料損壞",
+        "isCorrect": false
+      },
+      {
+        "text": "不管有沒有資料要傳輸都要一直連結著",
+        "isCorrect": false
+      },
+      {
+        "text": "無安全性而資料易被盜取",
+        "isCorrect": false
+      },
+      {
+        "text": "網路鏈結失效而造成迴圈",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "距離向量在鏈路故障時可能形成計數到無窮迴圈，造成資源浪費。"
+  },
+  {
+    "type": "single",
+    "question": "下列何者最能描述無線隨意網路（Ad Hoc Network）的特性？",
+    "answers": [
+      {
+        "text": "只能單跳傳輸",
+        "isCorrect": false
+      },
+      {
+        "text": "僅適用於有線網路環境",
+        "isCorrect": false
+      },
+      {
+        "text": "依賴中心化伺服器進行路由",
+        "isCorrect": false
+      },
+      {
+        "text": "無需固定基礎架構即可自動組織",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Ad Hoc 可無固定基礎架構，自組織拓樸與路由。"
+  },
+  {
+    "type": "single",
+    "question": "在無線隨意網路中，區分階段（Split Phase）機制將時間分為哪兩個階段？",
+    "answers": [
+      {
+        "text": "傳輸／空閒",
+        "isCorrect": false
+      },
+      {
+        "text": "資料／回應",
+        "isCorrect": false
+      },
+      {
+        "text": "控制／輪詢",
+        "isCorrect": false
+      },
+      {
+        "text": "控制階段與資料傳輸階段",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Split Phase 將時間切成控制階段與資料傳輸階段以避免衝突。"
+  },
+  {
+    "type": "single",
+    "question": "在無線隨意網路中，ZRP 協定中，跨越 Zone 邊界的路由搜尋使用何種策略？",
+    "answers": [
+      {
+        "text": "MPR 廣播",
+        "isCorrect": false
+      },
+      {
+        "text": "進階鏈結狀態",
+        "isCorrect": false
+      },
+      {
+        "text": "主動式路由",
+        "isCorrect": false
+      },
+      {
+        "text": "回應式路由",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "ZRP 區內採主動，跨區邊界以回應式搜尋以減少開銷。"
+  },
+  {
+    "type": "single",
+    "question": "TDMA 中，時槽（Timeslot）的作用是？",
+    "answers": [
+      {
+        "text": "提供頻寬填充",
+        "isCorrect": false
+      },
+      {
+        "text": "編碼多重存取",
+        "isCorrect": false
+      },
+      {
+        "text": "實現多載波傳輸",
+        "isCorrect": false
+      },
+      {
+        "text": "劃分時間單位以分配用戶傳輸",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "時槽為 TDMA 的基本單位，用以分配各用戶的傳輸時段。"
+  },
+  {
+    "type": "single",
+    "question": "Media Access Control（MAC）層的主要功能不包括？",
+    "answers": [
+      {
+        "text": "媒體存取控制",
+        "isCorrect": false
+      },
+      {
+        "text": "避免封包衝突",
+        "isCorrect": false
+      },
+      {
+        "text": "定址",
+        "isCorrect": false
+      },
+      {
+        "text": "路由尋找",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "MAC 只管媒體存取與衝突避免，不負責網路層的路由尋找。"
+  },
+  {
+    "type": "single",
+    "question": "BASIC 電力控制協定中封包使用四向（RTS/CTS/DATA/ACK）交握，請問哪兩個封包是以最小所需電力傳送？",
+    "answers": [
+      {
+        "text": "RTS/DATA",
+        "isCorrect": false
+      },
+      {
+        "text": "RTS/CTS",
+        "isCorrect": false
+      },
+      {
+        "text": "CTS/ACK",
+        "isCorrect": false
+      },
+      {
+        "text": "DATA/ACK",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "BASIC 機制以最小必要功率傳送 DATA/ACK，控制封包用較高功率確保可聞。"
+  },
+  {
+    "type": "single",
+    "question": "在 CSMA/CA 中，若媒介忙碌時，節點將採取何種做法？",
+    "answers": [
+      {
+        "text": "立即傳送",
+        "isCorrect": false
+      },
+      {
+        "text": "廣播封包",
+        "isCorrect": false
+      },
+      {
+        "text": "切換頻道",
+        "isCorrect": false
+      },
+      {
+        "text": "延遲隨機時間後重試",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "媒體忙碌則隨機退避後重試，這是 CSMA/CA 的核心。"
+  },
+  {
+    "type": "single",
+    "question": "關於回應式路由協定，何者正確？",
+    "answers": [
+      {
+        "text": "首次尋找會耗時較多而造成封包延遲",
+        "isCorrect": false
+      },
+      {
+        "text": "適合偶發流量但一旦發生則有大流量",
+        "isCorrect": false
+      },
+      {
+        "text": "回應式路由只尋找與維護有需要的路由",
+        "isCorrect": false
+      },
+      {
+        "text": "全部皆是",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "回應式首次尋徑較慢，但只維護需要的路由，適合低負載且突發流量。"
+  },
+  {
+    "type": "single",
+    "question": "在無線隨意網路中，Location-Aided Routing（LAR）中，路由決策依據何者？",
+    "answers": [
+      {
+        "text": "跳數",
+        "isCorrect": false
+      },
+      {
+        "text": "收發功率",
+        "isCorrect": false
+      },
+      {
+        "text": "時間同步",
+        "isCorrect": false
+      },
+      {
+        "text": "節點地理位置",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "LAR 利用節點的地理位置限制廣播範圍以加速尋路。"
+  },
+  {
+    "type": "single",
+    "question": "動態來源路由(DSR)為回應式路由協定，當一節點打算送出一封包，而其路由表格中並沒有該目的地的資訊時，該節點會啟動什麼程序找尋？",
+    "answers": [
+      {
+        "text": "路由請求(RREQ)",
+        "isCorrect": false
+      },
+      {
+        "text": "路由錯誤(RERR)",
+        "isCorrect": false
+      },
+      {
+        "text": "路由回應(RREP)",
+        "isCorrect": false
+      },
+      {
+        "text": "路由探索(Route Discovery)",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "DSR 路由表無目的時會啟動 Route Discovery 程序。"
+  },
+  {
+    "type": "single",
+    "question": "在無線隨意網路中，Dynamic Source Routing (DSR) 啟動路由探索時，第一步會發送？",
+    "answers": [
+      {
+        "text": "RRV",
+        "isCorrect": false
+      },
+      {
+        "text": "RERR",
+        "isCorrect": false
+      },
+      {
+        "text": "RREP",
+        "isCorrect": false
+      },
+      {
+        "text": "RREQ",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Route Discovery 由廣播 RREQ 開始，蒐集路徑後以 RREP 回覆。"
+  },
+  {
+    "type": "single",
+    "question": "關於主動式路由與回應式路由的優缺點，下列何者不正確？",
+    "answers": [
+      {
+        "text": "回應式路由每次都使用最佳路徑",
+        "isCorrect": true
+      },
+      {
+        "text": "回應式路由能適應不同的流量變度",
+        "isCorrect": false
+      },
+      {
+        "text": "主動式路由浪費很多不必要的花費在不需要的路由上",
+        "isCorrect": false
+      },
+      {
+        "text": "流量密度較低時，回應式路由優於主動式路由",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "回應式不保證每次皆最佳路徑；其優點在於按需搜尋與維護。"
+  },
+  {
+    "type": "single",
+    "question": "在無線隨意網路中，DSDV 協定中，用以避免路由迴圈的機制是？",
+    "answers": [
+      {
+        "text": "MPR 節點",
+        "isCorrect": false
+      },
+      {
+        "text": "源路由",
+        "isCorrect": false
+      },
+      {
+        "text": "跳數限制",
+        "isCorrect": false
+      },
+      {
+        "text": "序列編號",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "DSDV 藉由遞增序列編號標示新舊路由以避免迴圈。"
+  },
+  {
+    "type": "single",
+    "question": "在無線隨意網路中，Dynamic Channel Allocation (DCA) 中，用於控制封包交換的專用通道稱為？",
+    "answers": [
+      {
+        "text": "Data Channel",
+        "isCorrect": false
+      },
+      {
+        "text": "Control Channel",
+        "isCorrect": true
+      },
+      {
+        "text": "Busy Tone Channel",
+        "isCorrect": false
+      },
+      {
+        "text": "Reservation Channel",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "DCA 以專用控制通道進行控制封包交換與預約。"
+  },
+  {
+    "type": "single",
+    "question": "在無線隨意網路（Wireless Ad Hoc Network）中，下列何者不會產生多通道的隱藏終端問題？",
+    "answers": [
+      {
+        "text": "全部皆是",
+        "isCorrect": false
+      },
+      {
+        "text": "多通道時間同步之共同跳躍",
+        "isCorrect": false
+      },
+      {
+        "text": "多通道時間同步之區分階段",
+        "isCorrect": false
+      },
+      {
+        "text": "多通道時間非同步之動態頻道分配",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "不同通道非同步動態分配可避開同步切換造成的相互聽不見問題。"
+  },
+  {
+    "type": "single",
+    "question": "在無線隨意網路中，Dynamic Channel Allocation (DCA) 中，節點首先會維護的列表為？",
+    "answers": [
+      {
+        "text": "Reservation List",
+        "isCorrect": false
+      },
+      {
+        "text": "Free Channel List",
+        "isCorrect": false
+      },
+      {
+        "text": "Channel Usage List",
+        "isCorrect": true
+      },
+      {
+        "text": "Control Channel List",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "DCA 節點首先維護 Channel Usage List 以掌握各通道佔用情形。"
+  },
+  {
+    "type": "single",
+    "question": "在無線隨意網路中，回應式路由協定的主要優點是？",
+    "answers": [
+      {
+        "text": "支援靜態網路",
+        "isCorrect": false
+      },
+      {
+        "text": "僅維護必要路由",
+        "isCorrect": true
+      },
+      {
+        "text": "適用於高流量密度",
+        "isCorrect": false
+      },
+      {
+        "text": "無須任何路由資訊",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "回應式僅維護必要路由，控制開銷隨需求而變，小流量時較省。"
+  },
+  {
+    "type": "single",
+    "question": "在獨立型基本服務集（IBSS）模式中，節點間的通訊不需透過何者？",
+    "answers": [
+      {
+        "text": "RF",
+        "isCorrect": false
+      },
+      {
+        "text": "AP",
+        "isCorrect": true
+      },
+      {
+        "text": "BSS",
+        "isCorrect": false
+      },
+      {
+        "text": "RREQ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "IBSS 為 Ad Hoc 模式，節點直連不經 AP。"
+  },
+  {
+    "type": "single",
+    "question": "FDMA技術透過何種方式讓多個使用者同時存取媒體？",
+    "answers": [
+      {
+        "text": "時槽分割",
+        "isCorrect": false
+      },
+      {
+        "text": "隨機後退",
+        "isCorrect": false
+      },
+      {
+        "text": "編碼區隔",
+        "isCorrect": false
+      },
+      {
+        "text": "頻段切割",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "FDMA 透過頻譜切割將不同使用者分配至不同頻帶。"
+  },
+  {
+    "type": "single",
+    "question": "多通道的隱藏終端點問題主要因何而生？",
+    "answers": [
+      {
+        "text": "信號衰減",
+        "isCorrect": false
+      },
+      {
+        "text": "編碼不正交",
+        "isCorrect": false
+      },
+      {
+        "text": "時間切換不同步",
+        "isCorrect": true
+      },
+      {
+        "text": "RTS/CTS 長度過大",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "多通道隱藏終端常因各節點切換時間不同步而彼此聽不見。"
+  },
+  {
+    "type": "single",
+    "question": "在無線網路中，Aloha 協定的最大頻道使用率約為多少？",
+    "answers": [
+      {
+        "text": "18%",
+        "isCorrect": true
+      },
+      {
+        "text": "37%",
+        "isCorrect": false
+      },
+      {
+        "text": "50%",
+        "isCorrect": false
+      },
+      {
+        "text": "75%",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "純 ALOHA 理論通道利用率上限約 18%。"
+  },
+  {
+    "type": "single",
+    "question": "在無線隨意網路之多通道的環境下，若使用 Dynamic Channel Allocation (DCA) 時，至少需要幾個收發器？",
+    "answers": [
+      {
+        "text": "一個",
+        "isCorrect": false
+      },
+      {
+        "text": "兩個",
+        "isCorrect": true
+      },
+      {
+        "text": "三個",
+        "isCorrect": false
+      },
+      {
+        "text": "四個",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "DCA 需同時監聽控制與資料通道，至少需兩個收發器。"
+  }
+]
