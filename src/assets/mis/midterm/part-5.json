@@ -1,0 +1,1080 @@
+[
+  {
+    "type": "single",
+    "question": "程式設計中的模組化主要優點是？",
+    "answers": [
+      {
+        "text": "增加程式複雜度",
+        "isCorrect": false
+      },
+      {
+        "text": "獨立於程式規格文件",
+        "isCorrect": false
+      },
+      {
+        "text": "降低程式間干擾，提升維護性",
+        "isCorrect": true
+      },
+      {
+        "text": "強制使用單一語言",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "何謂整合軟體開發環境？",
+    "answers": [
+      {
+        "text": "IDF",
+        "isCorrect": false
+      },
+      {
+        "text": "Integration development engine",
+        "isCorrect": false
+      },
+      {
+        "text": "Integration development environment",
+        "isCorrect": true
+      },
+      {
+        "text": "全部皆非",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "下列何者不是整合軟體開發環境的效益？",
+    "answers": [
+      {
+        "text": "全部皆非",
+        "isCorrect": true
+      },
+      {
+        "text": "提高顧客滿意度",
+        "isCorrect": false
+      },
+      {
+        "text": "縮短交期",
+        "isCorrect": false
+      },
+      {
+        "text": "降低整體成本",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "企業導入新資訊系統時，所謂「跳躍式更新」是指？",
+    "answers": [
+      {
+        "text": "1僅修改介面不動後端",
+        "isCorrect": false
+      },
+      {
+        "text": "延後更新至需求穩定",
+        "isCorrect": false
+      },
+      {
+        "text": "將系統分割成數個大模組並分步導 入",
+        "isCorrect": true
+      },
+      {
+        "text": "大規模同時替換所有系統",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "一般的資訊系統導入應考量哪些？",
+    "answers": [
+      {
+        "text": "資源的需求",
+        "isCorrect": false
+      },
+      {
+        "text": "全部皆是",
+        "isCorrect": true
+      },
+      {
+        "text": "條件性的成熟",
+        "isCorrect": false
+      },
+      {
+        "text": "功能上的需求",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "管理資訊系統導入系統應包含哪些？",
+    "answers": [
+      {
+        "text": "決定計劃標準和程序",
+        "isCorrect": false
+      },
+      {
+        "text": "開發溝通計劃",
+        "isCorrect": false
+      },
+      {
+        "text": "確認和評估風險",
+        "isCorrect": false
+      },
+      {
+        "text": "全部皆是",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "資訊化需求分析的發展不包含哪一項？",
+    "answers": [
+      {
+        "text": "可行性分析",
+        "isCorrect": false
+      },
+      {
+        "text": "系統部署",
+        "isCorrect": true
+      },
+      {
+        "text": "企業應用功能分析",
+        "isCorrect": false
+      },
+      {
+        "text": "效益分析",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "在執行階段不主要進行何項工作？",
+    "answers": [
+      {
+        "text": "進度與品質控管",
+        "isCorrect": false
+      },
+      {
+        "text": "撰寫最終報告",
+        "isCorrect": true
+      },
+      {
+        "text": "收集材料與設備",
+        "isCorrect": false
+      },
+      {
+        "text": "工作分派與回饋",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "在專案導入方法論中，不屬於三大導入模式的是？",
+    "answers": [
+      {
+        "text": "全面性導入",
+        "isCorrect": false
+      },
+      {
+        "text": "漸進式導入",
+        "isCorrect": false
+      },
+      {
+        "text": "複製式導入",
+        "isCorrect": false
+      },
+      {
+        "text": "同步式導入",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "下列何者是程式設計的作業？",
+    "answers": [
+      {
+        "text": "程式編碼",
+        "isCorrect": true
+      },
+      {
+        "text": "資料表設計",
+        "isCorrect": false
+      },
+      {
+        "text": "資料流程圖",
+        "isCorrect": false
+      },
+      {
+        "text": "全部皆是",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "下列何者是系統設計的作業？",
+    "answers": [
+      {
+        "text": "程式編碼",
+        "isCorrect": false
+      },
+      {
+        "text": "資料流程圖",
+        "isCorrect": false
+      },
+      {
+        "text": "資料表設計",
+        "isCorrect": true
+      },
+      {
+        "text": "全部皆是",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "測試項目包含？",
+    "answers": [
+      {
+        "text": "情境",
+        "isCorrect": false
+      },
+      {
+        "text": "程式單元",
+        "isCorrect": false
+      },
+      {
+        "text": "全部皆是",
+        "isCorrect": true
+      },
+      {
+        "text": "使用者功能",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "資料關聯流程圖的主要目的是？",
+    "answers": [
+      {
+        "text": "描述資料流動與擷取",
+        "isCorrect": true
+      },
+      {
+        "text": "評估硬體效能",
+        "isCorrect": false
+      },
+      {
+        "text": "建立使用者權限",
+        "isCorrect": false
+      },
+      {
+        "text": "優化 UI 設計",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "下列何者非可行性分析中專案品質考量？",
+    "answers": [
+      {
+        "text": "CMMI 連續式成熟度",
+        "isCorrect": false
+      },
+      {
+        "text": "專案里程碑設計",
+        "isCorrect": false
+      },
+      {
+        "text": "使用者滿意度調查",
+        "isCorrect": true
+      },
+      {
+        "text": "CMMI 階段式成熟度",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "下列何者是時程需被變更時的因應計畫？",
+    "answers": [
+      {
+        "text": "突發狀況發生",
+        "isCorrect": true
+      },
+      {
+        "text": "全部皆是",
+        "isCorrect": false
+      },
+      {
+        "text": "超額支出成本發生",
+        "isCorrect": false
+      },
+      {
+        "text": "考量人員調配",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "管理資訊系統開發模式不包含哪一類？",
+    "answers": [
+      {
+        "text": "自動化測試模式",
+        "isCorrect": true
+      },
+      {
+        "text": "導入程序",
+        "isCorrect": false
+      },
+      {
+        "text": "客製化開發",
+        "isCorrect": false
+      },
+      {
+        "text": "平台作業方法論",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "系統分析主要是將企業需求轉換為何種表達？",
+    "answers": [
+      {
+        "text": "市場行銷策略",
+        "isCorrect": false
+      },
+      {
+        "text": "測試報告",
+        "isCorrect": false
+      },
+      {
+        "text": "使用者手冊",
+        "isCorrect": false
+      },
+      {
+        "text": "結構化作業需求",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "MIS在功能層面要解決下列哪些作業特性？",
+    "answers": [
+      {
+        "text": "安全性、隱私性、合規性",
+        "isCorrect": false
+      },
+      {
+        "text": "可擴充性、可維護性",
+        "isCorrect": false
+      },
+      {
+        "text": "靈活性、可重用性",
+        "isCorrect": false
+      },
+      {
+        "text": "即時性、效率性、可行性",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "資訊系統的開發方法模式有？",
+    "answers": [
+      {
+        "text": "全部皆是",
+        "isCorrect": true
+      },
+      {
+        "text": "模組化",
+        "isCorrect": false
+      },
+      {
+        "text": "元件化",
+        "isCorrect": false
+      },
+      {
+        "text": "結構化",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "管理資訊系統的發展可從哪兩大觀點來探討？",
+    "answers": [
+      {
+        "text": "制度面與技術面",
+        "isCorrect": false
+      },
+      {
+        "text": "應用面與管理面",
+        "isCorrect": false
+      },
+      {
+        "text": "系統設計與介面設計",
+        "isCorrect": true
+      },
+      {
+        "text": "組織面與功能面",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "客戶價值鏈的網路模式中，直接顧客的角色是？",
+    "answers": [
+      {
+        "text": "設計商機",
+        "isCorrect": false
+      },
+      {
+        "text": "制定流程",
+        "isCorrect": false
+      },
+      {
+        "text": "吸引間接顧客",
+        "isCorrect": true
+      },
+      {
+        "text": "提供資金",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "「在產業鏈過程中將原本具有中介功能的價值移除掉」是指什麼？",
+    "answers": [
+      {
+        "text": "去中間化",
+        "isCorrect": true
+      },
+      {
+        "text": "全部皆是",
+        "isCorrect": false
+      },
+      {
+        "text": "再中間化",
+        "isCorrect": false
+      },
+      {
+        "text": "改善",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "將企業需求轉換為結構化的系統呈現表達是指什麼？",
+    "answers": [
+      {
+        "text": "系統設計",
+        "isCorrect": false
+      },
+      {
+        "text": "系統分析",
+        "isCorrect": true
+      },
+      {
+        "text": "全部皆是",
+        "isCorrect": false
+      },
+      {
+        "text": "程式開發",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "軟體系統控管方法包含？",
+    "answers": [
+      {
+        "text": "需求分析",
+        "isCorrect": false
+      },
+      {
+        "text": "程式開發",
+        "isCorrect": false
+      },
+      {
+        "text": "系統設計",
+        "isCorrect": false
+      },
+      {
+        "text": "全部皆是",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "企業策略包含哪些？",
+    "answers": [
+      {
+        "text": "全部皆是",
+        "isCorrect": true
+      },
+      {
+        "text": "功能策略",
+        "isCorrect": false
+      },
+      {
+        "text": "作業策略",
+        "isCorrect": false
+      },
+      {
+        "text": "整體策略",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "辦公室自動化系統主要提升哪方面效率？",
+    "answers": [
+      {
+        "text": "產品製造",
+        "isCorrect": false
+      },
+      {
+        "text": "行政程序作業",
+        "isCorrect": true
+      },
+      {
+        "text": "財務審核",
+        "isCorrect": false
+      },
+      {
+        "text": "研發流程",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "下列何者不屬於資訊環境系統觀點的元件？",
+    "answers": [
+      {
+        "text": "控制",
+        "isCorrect": false
+      },
+      {
+        "text": "回饋",
+        "isCorrect": false
+      },
+      {
+        "text": "輸入",
+        "isCorrect": false
+      },
+      {
+        "text": "市場",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "企業組織架構不包含哪一要素？",
+    "answers": [
+      {
+        "text": "目標",
+        "isCorrect": false
+      },
+      {
+        "text": "資源",
+        "isCorrect": false
+      },
+      {
+        "text": "員工福利",
+        "isCorrect": true
+      },
+      {
+        "text": "活動",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "通訊網路「負載平衡」指的是？",
+    "answers": [
+      {
+        "text": "設備冗餘",
+        "isCorrect": false
+      },
+      {
+        "text": "資料加密",
+        "isCorrect": false
+      },
+      {
+        "text": "傳輸速率提升",
+        "isCorrect": false
+      },
+      {
+        "text": "最佳分配流量",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "下列何者不是企業策略的三層次之內容？",
+    "answers": [
+      {
+        "text": "方法",
+        "isCorrect": false
+      },
+      {
+        "text": "策略",
+        "isCorrect": false
+      },
+      {
+        "text": "全部皆非",
+        "isCorrect": true
+      },
+      {
+        "text": "戰術",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "都會網路（MAN）主要基於何種基礎設施？",
+    "answers": [
+      {
+        "text": "無線電塔",
+        "isCorrect": false
+      },
+      {
+        "text": "既有都市網路",
+        "isCorrect": true
+      },
+      {
+        "text": "局域網架構",
+        "isCorrect": false
+      },
+      {
+        "text": "廣域網線路",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "硬體環境中，不屬於網路環境的項目是？",
+    "answers": [
+      {
+        "text": "應用軟體",
+        "isCorrect": true
+      },
+      {
+        "text": "網際網路",
+        "isCorrect": false
+      },
+      {
+        "text": "星狀佈線",
+        "isCorrect": false
+      },
+      {
+        "text": "區域網路",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "下列哪種組織型態是矩陣結構？",
+    "answers": [
+      {
+        "text": "垂直",
+        "isCorrect": false
+      },
+      {
+        "text": "專案",
+        "isCorrect": false
+      },
+      {
+        "text": "矩陣",
+        "isCorrect": true
+      },
+      {
+        "text": "扁平",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "下列何者是其由上而下層級是大大削減為只有二、三層等級？",
+    "answers": [
+      {
+        "text": "扁平型態",
+        "isCorrect": false
+      },
+      {
+        "text": "矩陣型態",
+        "isCorrect": true
+      },
+      {
+        "text": "全部皆是",
+        "isCorrect": false
+      },
+      {
+        "text": "專案型態",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "組織型態種類有哪些？",
+    "answers": [
+      {
+        "text": "全部皆是",
+        "isCorrect": false
+      },
+      {
+        "text": "專案",
+        "isCorrect": true
+      },
+      {
+        "text": "扁平",
+        "isCorrect": false
+      },
+      {
+        "text": "垂直",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "無線區域網路的優勢為何？",
+    "answers": [
+      {
+        "text": "穩定性高",
+        "isCorrect": false
+      },
+      {
+        "text": "建立任意連線",
+        "isCorrect": true
+      },
+      {
+        "text": "傳輸速率快",
+        "isCorrect": false
+      },
+      {
+        "text": "成本低",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "何謂資料數據？",
+    "answers": [
+      {
+        "text": "模擬人類智慧的系統",
+        "isCorrect": false
+      },
+      {
+        "text": "提供決策的資訊",
+        "isCorrect": false
+      },
+      {
+        "text": "未經整理的交易記錄",
+        "isCorrect": true
+      },
+      {
+        "text": "經過分類的數據",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "協同產品商務是指？",
+    "answers": [
+      {
+        "text": "ERP",
+        "isCorrect": false
+      },
+      {
+        "text": "全部皆是",
+        "isCorrect": false
+      },
+      {
+        "text": "CRM",
+        "isCorrect": false
+      },
+      {
+        "text": "CPC",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "管理資訊系統是在企業管理層次的哪一層？",
+    "answers": [
+      {
+        "text": "全部皆是",
+        "isCorrect": false
+      },
+      {
+        "text": "決策",
+        "isCorrect": false
+      },
+      {
+        "text": "管理",
+        "isCorrect": true
+      },
+      {
+        "text": "策略",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "作業系統平台間的「整合關聯」不包含？",
+    "answers": [
+      {
+        "text": "資源分配",
+        "isCorrect": false
+      },
+      {
+        "text": "執行時間訂定",
+        "isCorrect": false
+      },
+      {
+        "text": "事件順序安排",
+        "isCorrect": false
+      },
+      {
+        "text": "修改資料庫結構",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "下列何者不是資料的特性重點？",
+    "answers": [
+      {
+        "text": "未經整理",
+        "isCorrect": false
+      },
+      {
+        "text": "全部皆非",
+        "isCorrect": false
+      },
+      {
+        "text": "有用的",
+        "isCorrect": true
+      },
+      {
+        "text": "原始的",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "MIS 在企業營運定位於？",
+    "answers": [
+      {
+        "text": "決策分析層面",
+        "isCorrect": false
+      },
+      {
+        "text": "供應鏈管理",
+        "isCorrect": false
+      },
+      {
+        "text": "作業程序與管理分析",
+        "isCorrect": true
+      },
+      {
+        "text": "模擬人類智慧",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "從管理資訊系統和其他系統關聯的角度而言，企業若要整合及導入這些不同 的系統，則在整合導入過程中，須考量哪三大因素？",
+    "answers": [
+      {
+        "text": "全部皆是",
+        "isCorrect": true
+      },
+      {
+        "text": "資訊化顧問的輔導",
+        "isCorrect": false
+      },
+      {
+        "text": "軟體產品廠商的搭配",
+        "isCorrect": false
+      },
+      {
+        "text": "MIS部門在企業的功效",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "API 在 MIS 中主要用於？",
+    "answers": [
+      {
+        "text": "決策分析",
+        "isCorrect": false
+      },
+      {
+        "text": "子系統間之開放式程式連接",
+        "isCorrect": true
+      },
+      {
+        "text": "硬體佈署",
+        "isCorrect": false
+      },
+      {
+        "text": "流程再造",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "管理資訊系統和作業系統關聯？它主要包含",
+    "answers": [
+      {
+        "text": "檢核",
+        "isCorrect": false
+      },
+      {
+        "text": "存取",
+        "isCorrect": false
+      },
+      {
+        "text": "通訊",
+        "isCorrect": true
+      },
+      {
+        "text": "全部皆是",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "在組織層面，MIS 對員工影響不包含？",
+    "answers": [
+      {
+        "text": "增進工作效率",
+        "isCorrect": false
+      },
+      {
+        "text": "改變員工個人價值觀",
+        "isCorrect": true
+      },
+      {
+        "text": "提升整合能力",
+        "isCorrect": false
+      },
+      {
+        "text": "增強跨部門溝通",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "下列何者非 MIS 與介面連接系統之關聯類型？",
+    "answers": [
+      {
+        "text": "呼叫連接",
+        "isCorrect": false
+      },
+      {
+        "text": "決策支援",
+        "isCorrect": true
+      },
+      {
+        "text": "程式驅動",
+        "isCorrect": false
+      },
+      {
+        "text": "資料匯入匯出",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "企業資訊化三階段過程包含？",
+    "answers": [
+      {
+        "text": "管理分析",
+        "isCorrect": false
+      },
+      {
+        "text": "電子數據",
+        "isCorrect": false
+      },
+      {
+        "text": "全部皆是",
+        "isCorrect": true
+      },
+      {
+        "text": "交易處理",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "Sherman Blumenthal 定義中，資訊需經過哪一程序？",
+    "answers": [
+      {
+        "text": "收集、分析、報告",
+        "isCorrect": false
+      },
+      {
+        "text": "解釋、儲存、分類",
+        "isCorrect": false
+      },
+      {
+        "text": "記錄、分類、組織、關聯與解釋",
+        "isCorrect": true
+      },
+      {
+        "text": "分類、傳輸、評估",
+        "isCorrect": false
+      }
+    ]
+  }
+]

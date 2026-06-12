@@ -1,0 +1,1080 @@
+[
+  {
+    "type": "single",
+    "question": "ERP 系統常見的六大模組應用功能不包含？",
+    "answers": [
+      {
+        "text": "成本會計",
+        "isCorrect": false
+      },
+      {
+        "text": "電子商務平台",
+        "isCorrect": true
+      },
+      {
+        "text": "物料庫存管理",
+        "isCorrect": false
+      },
+      {
+        "text": "銷售訂單管理",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "ERP 研發循環重點作業為？",
+    "answers": [
+      {
+        "text": "採購入庫",
+        "isCorrect": false
+      },
+      {
+        "text": "固定資產管理",
+        "isCorrect": false
+      },
+      {
+        "text": "銷售退貨",
+        "isCorrect": false
+      },
+      {
+        "text": "產品試作與測試",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "ERP+BPR 整合中，「企業流程模式作業」主要在？",
+    "answers": [
+      {
+        "text": "員工招募",
+        "isCorrect": false
+      },
+      {
+        "text": "程式碼撰寫",
+        "isCorrect": false
+      },
+      {
+        "text": "設計並控制整合各部門流程",
+        "isCorrect": true
+      },
+      {
+        "text": "硬體架設",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "ERP系統和CRM系統的關係為何？",
+    "answers": [
+      {
+        "text": "全部皆是",
+        "isCorrect": false
+      },
+      {
+        "text": "訂單作業",
+        "isCorrect": true
+      },
+      {
+        "text": "採購作業",
+        "isCorrect": false
+      },
+      {
+        "text": "入庫作業",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "下列哪一項是交易主檔的例子？",
+    "answers": [
+      {
+        "text": "全部皆是",
+        "isCorrect": false
+      },
+      {
+        "text": "訂單主檔",
+        "isCorrect": true
+      },
+      {
+        "text": "客戶",
+        "isCorrect": false
+      },
+      {
+        "text": "BOM主檔等",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "ERP 系統上線前需確認三大條件，下列何者非其一？",
+    "answers": [
+      {
+        "text": "主要流程功能可產生單據",
+        "isCorrect": false
+      },
+      {
+        "text": "基本交易資料無重大錯誤",
+        "isCorrect": false
+      },
+      {
+        "text": "使用者人數達標",
+        "isCorrect": true
+      },
+      {
+        "text": "會計庫存可結帳",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "ERP 主檔資料中的「基礎主檔」特性是？",
+    "answers": [
+      {
+        "text": "內容不常變動",
+        "isCorrect": true
+      },
+      {
+        "text": "隨時間量增",
+        "isCorrect": false
+      },
+      {
+        "text": "經常變動",
+        "isCorrect": false
+      },
+      {
+        "text": "交易型資料",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "企業對於導入企業資源規劃系統的期望，是從什麼觀點來看？",
+    "answers": [
+      {
+        "text": "全部皆非",
+        "isCorrect": false
+      },
+      {
+        "text": "成本",
+        "isCorrect": false
+      },
+      {
+        "text": "投資報酬率",
+        "isCorrect": false
+      },
+      {
+        "text": "需求符合",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "整體最佳化效益是指？",
+    "answers": [
+      {
+        "text": "由各功能別的部門分別運作",
+        "isCorrect": false
+      },
+      {
+        "text": "部門最佳化是重點",
+        "isCorrect": false
+      },
+      {
+        "text": "使企業發揮最大綜效",
+        "isCorrect": true
+      },
+      {
+        "text": "會阻礙企業最佳化",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "通路廠商在運輸過程中的流動是指？",
+    "answers": [
+      {
+        "text": "金流",
+        "isCorrect": false
+      },
+      {
+        "text": "物流",
+        "isCorrect": true
+      },
+      {
+        "text": "資訊流",
+        "isCorrect": false
+      },
+      {
+        "text": "全部皆是",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "下列何者不屬於企業流程再造的四個階段？",
+    "answers": [
+      {
+        "text": "專案結案評估",
+        "isCorrect": false
+      },
+      {
+        "text": "導入建置期",
+        "isCorrect": false
+      },
+      {
+        "text": "準備認知期",
+        "isCorrect": false
+      },
+      {
+        "text": "設計分析期",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "資訊科技在流程再造中的角色為何？",
+    "answers": [
+      {
+        "text": "訓練員工使用",
+        "isCorrect": false
+      },
+      {
+        "text": "將再造需求轉換為自動化系統功 能",
+        "isCorrect": true
+      },
+      {
+        "text": "僅提供硬體資源",
+        "isCorrect": false
+      },
+      {
+        "text": "管理資安風險",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "ARIS 方法論不包含下列哪一構面？",
+    "answers": [
+      {
+        "text": "財務構面",
+        "isCorrect": true
+      },
+      {
+        "text": "資料構面",
+        "isCorrect": false
+      },
+      {
+        "text": "組織構面",
+        "isCorrect": false
+      },
+      {
+        "text": "功能構面",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "ARIS 四大構面不包括？",
+    "answers": [
+      {
+        "text": "組織構面",
+        "isCorrect": false
+      },
+      {
+        "text": "控制構面",
+        "isCorrect": false
+      },
+      {
+        "text": "功能構面",
+        "isCorrect": false
+      },
+      {
+        "text": "安全構面",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "BPR 溝通時需採用何種方式消除不明確性？",
+    "answers": [
+      {
+        "text": "1標準化圖形與元件化模式",
+        "isCorrect": false
+      },
+      {
+        "text": "書面報告",
+        "isCorrect": false
+      },
+      {
+        "text": "口頭會議",
+        "isCorrect": false
+      },
+      {
+        "text": "電子郵件討論",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "Internet 在 MIS 應用中指？",
+    "answers": [
+      {
+        "text": "只限 B2C 電子商務",
+        "isCorrect": false
+      },
+      {
+        "text": "企業內部通訊系統",
+        "isCorrect": false
+      },
+      {
+        "text": "企業與企業之間的交易作業，無 內部中心",
+        "isCorrect": true
+      },
+      {
+        "text": "僅供教育用途",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "Extranet 的定義為？",
+    "answers": [
+      {
+        "text": "員工互聯網",
+        "isCorrect": false
+      },
+      {
+        "text": "企業內部為中心對外部角色提供 資訊系統功能",
+        "isCorrect": true
+      },
+      {
+        "text": "開放公開網路",
+        "isCorrect": false
+      },
+      {
+        "text": "企業對員工行動服務",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "ARIS 方法論中，何者為流程分析的控制構面？",
+    "answers": [
+      {
+        "text": "功能分解圖",
+        "isCorrect": false
+      },
+      {
+        "text": "顧客資料模型",
+        "isCorrect": false
+      },
+      {
+        "text": "流程連結與資料橋樑",
+        "isCorrect": true
+      },
+      {
+        "text": "組織架構圖",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "資料在組織部門的整合有？",
+    "answers": [
+      {
+        "text": "全部皆是",
+        "isCorrect": false
+      },
+      {
+        "text": "有工作群組層次",
+        "isCorrect": false
+      },
+      {
+        "text": "個人層次",
+        "isCorrect": false
+      },
+      {
+        "text": "企業外部和企業內部的層次",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "什麼是企業流程再造（Business process reengineering） 的核心工作？",
+    "answers": [
+      {
+        "text": "原有流程的些微修改",
+        "isCorrect": false
+      },
+      {
+        "text": "企業流程的定義",
+        "isCorrect": false
+      },
+      {
+        "text": "原有流程的加強描述",
+        "isCorrect": false
+      },
+      {
+        "text": "全部皆非",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "在資訊化企業的跨產業性階段之重點有哪些？",
+    "answers": [
+      {
+        "text": "某些部門功能",
+        "isCorrect": false
+      },
+      {
+        "text": "企業所有部門功能",
+        "isCorrect": false
+      },
+      {
+        "text": "和企業外的所有角色之間互動",
+        "isCorrect": true
+      },
+      {
+        "text": "全部皆是",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "企業流程再造可以分為下列哪些階段？",
+    "answers": [
+      {
+        "text": "設計分析期",
+        "isCorrect": false
+      },
+      {
+        "text": "準備認知期",
+        "isCorrect": false
+      },
+      {
+        "text": "確認評估期",
+        "isCorrect": false
+      },
+      {
+        "text": "全部皆是",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "資訊化企業包含哪三個階段？",
+    "answers": [
+      {
+        "text": "跨產業階段",
+        "isCorrect": false
+      },
+      {
+        "text": "功能性階段",
+        "isCorrect": false
+      },
+      {
+        "text": "全部皆是",
+        "isCorrect": true
+      },
+      {
+        "text": "整合性階段",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "普及化設施中，多媒體環境不包含？",
+    "answers": [
+      {
+        "text": "影像處理",
+        "isCorrect": false
+      },
+      {
+        "text": "2D/3D 動畫",
+        "isCorrect": false
+      },
+      {
+        "text": "硬體晶片設計",
+        "isCorrect": true
+      },
+      {
+        "text": "視訊串流",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "Web Service 中的服務請求者（Service Requester） 首要動作為？",
+    "answers": [
+      {
+        "text": "發布 SOAP服務",
+        "isCorrect": false
+      },
+      {
+        "text": "查詢 UDDI 登錄",
+        "isCorrect": true
+      },
+      {
+        "text": "註冊服務",
+        "isCorrect": false
+      },
+      {
+        "text": "撰寫 WSDL",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "行動資訊環境具備了那些效益？",
+    "answers": [
+      {
+        "text": "彈性和即時",
+        "isCorrect": false
+      },
+      {
+        "text": "無所不在",
+        "isCorrect": false
+      },
+      {
+        "text": "全部皆非",
+        "isCorrect": false
+      },
+      {
+        "text": "除全部皆非選項外其餘皆是",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "行動通訊網路的種類？",
+    "answers": [
+      {
+        "text": "電話通訊",
+        "isCorrect": false
+      },
+      {
+        "text": "電信通訊",
+        "isCorrect": false
+      },
+      {
+        "text": "全部皆是",
+        "isCorrect": true
+      },
+      {
+        "text": "數據通訊",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "RFID 的應用主要在於？",
+    "answers": [
+      {
+        "text": "強化資料庫效能",
+        "isCorrect": false
+      },
+      {
+        "text": "提升網頁速度",
+        "isCorrect": false
+      },
+      {
+        "text": "安全通訊加密",
+        "isCorrect": false
+      },
+      {
+        "text": "自動辨識與追蹤物件",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "ATM （Asynchronous Transfer Mode）的優勢是？",
+    "answers": [
+      {
+        "text": "多媒體封包小且公平傳輸",
+        "isCorrect": true
+      },
+      {
+        "text": "無須路由",
+        "isCorrect": false
+      },
+      {
+        "text": "低成本",
+        "isCorrect": false
+      },
+      {
+        "text": "易於架設",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "MIS建構方法中，下列哪一項不屬於軟體系統控管的五大階段？",
+    "answers": [
+      {
+        "text": "系統設計",
+        "isCorrect": false
+      },
+      {
+        "text": "需求分析",
+        "isCorrect": false
+      },
+      {
+        "text": "維運優化",
+        "isCorrect": true
+      },
+      {
+        "text": "程式開發",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "系統設計階段主要產出下列何者？",
+    "answers": [
+      {
+        "text": "測試文件",
+        "isCorrect": false
+      },
+      {
+        "text": "使用手冊",
+        "isCorrect": false
+      },
+      {
+        "text": "操作流程圖",
+        "isCorrect": false
+      },
+      {
+        "text": "資料庫模組架構及關聯圖",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "在MIS部門組織運作上，常見的做法為何？",
+    "answers": [
+      {
+        "text": "專業分工委外並設窗口",
+        "isCorrect": true
+      },
+      {
+        "text": "全程自行開發維運",
+        "isCorrect": false
+      },
+      {
+        "text": "完全外包並不設窗口",
+        "isCorrect": false
+      },
+      {
+        "text": "無需正式組織",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "組織中的IT運作最主要讓企業具備何種能力？",
+    "answers": [
+      {
+        "text": "快速回應與提出解決方案",
+        "isCorrect": true
+      },
+      {
+        "text": "自動化製造流程",
+        "isCorrect": false
+      },
+      {
+        "text": "降低人力成本",
+        "isCorrect": false
+      },
+      {
+        "text": "獨占市場資源",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "普及化商務（Ubiquitous Commerce）最主要差異在於？",
+    "answers": [
+      {
+        "text": "使用公共在地化設備，不需攜帶行動裝置",
+        "isCorrect": true
+      },
+      {
+        "text": "僅室內操作",
+        "isCorrect": false
+      },
+      {
+        "text": "僅限行動網路",
+        "isCorrect": false
+      },
+      {
+        "text": "只能B2B 模式",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "行動資訊環境不包含下列何者？",
+    "answers": [
+      {
+        "text": "供應商通訊",
+        "isCorrect": false
+      },
+      {
+        "text": "企業員工存取",
+        "isCorrect": false
+      },
+      {
+        "text": "顧客互動",
+        "isCorrect": false
+      },
+      {
+        "text": "僅限固定地點操作",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "3G 制式中不包含？",
+    "answers": [
+      {
+        "text": "TD-SCDMA",
+        "isCorrect": false
+      },
+      {
+        "text": "W-CDMA",
+        "isCorrect": false
+      },
+      {
+        "text": "CDMA2000",
+        "isCorrect": false
+      },
+      {
+        "text": "LTE-Advanced",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "下列何者不是web的特性？",
+    "answers": [
+      {
+        "text": "無狀態",
+        "isCorrect": false
+      },
+      {
+        "text": "相互獨立的實體",
+        "isCorrect": false
+      },
+      {
+        "text": "各個服務間沒有主從關係",
+        "isCorrect": false
+      },
+      {
+        "text": "有狀態",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "普及商務和行動商務的差異？",
+    "answers": [
+      {
+        "text": "anywhere",
+        "isCorrect": false
+      },
+      {
+        "text": "攜帶行動設備",
+        "isCorrect": true
+      },
+      {
+        "text": "全部皆非",
+        "isCorrect": false
+      },
+      {
+        "text": "anytime",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "Web 平台行動化閱讀地圖中，行動通訊層不包含？",
+    "answers": [
+      {
+        "text": "加密層",
+        "isCorrect": true
+      },
+      {
+        "text": "網路層",
+        "isCorrect": false
+      },
+      {
+        "text": "實體層",
+        "isCorrect": false
+      },
+      {
+        "text": "會議層",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "軟體服務化（Service-Oriented）架構中，負責公布服務描述的是？",
+    "answers": [
+      {
+        "text": "服務使用者介面",
+        "isCorrect": false
+      },
+      {
+        "text": "服務登錄者（UDDI）",
+        "isCorrect": true
+      },
+      {
+        "text": "服務提供者測試單元",
+        "isCorrect": false
+      },
+      {
+        "text": "服務請求者",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "何謂物件導向資料庫？",
+    "answers": [
+      {
+        "text": "全部皆是",
+        "isCorrect": true
+      },
+      {
+        "text": "物件式資料庫可提供一些查詢語言，允許用定義式編程訪問物件。",
+        "isCorrect": false
+      },
+      {
+        "text": "資料以物件的形式存儲，這些物件只能由其所屬的類別中定義的方法來操作。",
+        "isCorrect": false
+      },
+      {
+        "text": "物件被組成一種類別型層次，子類別繼承其超類別的特性。",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "多媒體資料庫系統須具備下列哪二項特性？",
+    "answers": [
+      {
+        "text": "無需互動",
+        "isCorrect": false
+      },
+      {
+        "text": "大容量儲存與高速存取",
+        "isCorrect": true
+      },
+      {
+        "text": "單一格式支援",
+        "isCorrect": false
+      },
+      {
+        "text": "低容量與低速率",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "程式設計中的模組化主要優點是？",
+    "answers": [
+      {
+        "text": "低容量與低速率",
+        "isCorrect": false
+      },
+      {
+        "text": "增加程式複雜度",
+        "isCorrect": true
+      },
+      {
+        "text": "降低程式間干擾，提升維護性",
+        "isCorrect": false
+      },
+      {
+        "text": "獨立於程式規格文件",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "下列何者不是軟體工程內容？",
+    "answers": [
+      {
+        "text": "軟體設計方法",
+        "isCorrect": false
+      },
+      {
+        "text": "電腦",
+        "isCorrect": true
+      },
+      {
+        "text": "軟體標準和規範",
+        "isCorrect": false
+      },
+      {
+        "text": "軟體開發工具",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "軟體整合開發環境有何效益？",
+    "answers": [
+      {
+        "text": "整合相關程式資源檔案",
+        "isCorrect": false
+      },
+      {
+        "text": "縮短開發與確認時程",
+        "isCorrect": false
+      },
+      {
+        "text": "加快程式編碼進度",
+        "isCorrect": false
+      },
+      {
+        "text": "全部皆是",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "物件導向技術盛行的原因？",
+    "answers": [
+      {
+        "text": "物件導向資料庫盛行",
+        "isCorrect": false
+      },
+      {
+        "text": "全部皆是",
+        "isCorrect": true
+      },
+      {
+        "text": "物件導向程式盛行",
+        "isCorrect": false
+      },
+      {
+        "text": "物件導向系統分析方法盛行",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "企業導入新資訊系統時，所謂「跳躍式更新」是指？",
+    "answers": [
+      {
+        "text": "將系統分割成數個大模組並分步導入",
+        "isCorrect": false
+      },
+      {
+        "text": "大規模同時替換所有系統",
+        "isCorrect": false
+      },
+      {
+        "text": "僅修改介面不動後端",
+        "isCorrect": false
+      },
+      {
+        "text": "延後更新至需求穩定",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "DCL（Data Control Language） 用於？",
+    "answers": [
+      {
+        "text": "管理存取權限",
+        "isCorrect": true
+      },
+      {
+        "text": "資料備份",
+        "isCorrect": false
+      },
+      {
+        "text": "定義索引",
+        "isCorrect": false
+      },
+      {
+        "text": "資料查詢",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "question": "路由器屬於哪一類網路設備？",
+    "answers": [
+      {
+        "text": "多工器",
+        "isCorrect": false
+      },
+      {
+        "text": "交換器",
+        "isCorrect": false
+      },
+      {
+        "text": "中央控管處理器",
+        "isCorrect": true
+      },
+      {
+        "text": "數據機",
+        "isCorrect": false
+      }
+    ]
+  }
+]

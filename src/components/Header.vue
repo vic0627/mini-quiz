@@ -4,11 +4,22 @@ import { Upload } from '@element-plus/icons-vue'
 import virtualUpload from '../utils/virtualUpload'
 import { useQuiz } from '../store/useQuiz'
 import { ElMessage } from 'element-plus'
-import misMidterm from '../assets/mis-midterm.json'
+import misMidterm from '../assets/mis/midterm.json'
+import misMidtermPart1 from '../assets/mis/midterm/part-1.json'
+import misMidtermPart2 from '../assets/mis/midterm/part-2.json'
+import misMidtermPart3 from '../assets/mis/midterm/part-3.json'
+import misMidtermPart4 from '../assets/mis/midterm/part-4.json'
+import misMidtermPart5 from '../assets/mis/midterm/part-5.json'
 
 const quizLib: Record<string, Questions> = {
-  '資訊管理系統(midterm)': misMidterm as Questions,
+  'midterm 分批練習 1': misMidtermPart1 as Questions,
+  'midterm 分批練習 2': misMidtermPart2 as Questions,
+  'midterm 分批練習 3': misMidtermPart3 as Questions,
+  'midterm 分批練習 4': misMidtermPart4 as Questions,
+  'midterm 分批練習 5': misMidtermPart5 as Questions,
 }
+
+const midtermQuiz = misMidterm as Questions
 
 const quizStore = useQuiz()
 
@@ -69,7 +80,8 @@ const reset = () => {
             placeholder="Please select a quiz"
             class="mr-3"
           >
-            <el-option-group label="資訊管理系統">
+            <el-option :value="midtermQuiz">midterm 大總匯</el-option>
+            <el-option-group label="midterm 分批練習">
               <el-option
                 v-for="(_, key) in quizLib"
                 :key="key"
