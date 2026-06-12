@@ -4,22 +4,11 @@ import { Upload } from '@element-plus/icons-vue'
 import virtualUpload from '../utils/virtualUpload'
 import { useQuiz } from '../store/useQuiz'
 import { ElMessage } from 'element-plus'
-import ch02_1 from '../assets/wireless/ch02-無線區域網路.json'
-import ch02_2 from '../assets/wireless/ch02-IP與Subnet概念.json'
-import ch03 from '../assets/wireless/ch03-無線隨意網路.json'
-import ch04 from '../assets/wireless/ch04-無線隨意網路.json'
-import shuffle from '../utils/shuffle'
+import misMidterm from '../assets/mis-midterm.json'
 
 const quizLib: Record<string, Questions> = {
-  'ch02-無線區域網路': ch02_1 as Questions,
-  'ch02-IP與Subnet概念': ch02_2 as Questions,
-  'ch03-無線隨意網路': ch03 as Questions,
-  'ch04-無線隨意網路': ch04 as Questions,
+  '資訊管理系統(midterm)': misMidterm as Questions,
 }
-
-const totalQuiz = [...ch02_1, ...ch02_2, ...ch03, ...ch04]
-shuffle(totalQuiz)
-totalQuiz.length = 50
 
 const quizStore = useQuiz()
 
@@ -80,7 +69,7 @@ const reset = () => {
             placeholder="Please select a quiz"
             class="mr-3"
           >
-            <el-option-group label="無線網路">
+            <el-option-group label="資訊管理系統">
               <el-option
                 v-for="(_, key) in quizLib"
                 :key="key"
@@ -88,7 +77,6 @@ const reset = () => {
                 >{{ key }}</el-option
               >
             </el-option-group>
-            <el-option :value="totalQuiz">無線網路期中模擬測驗</el-option>
           </el-select>
           <el-button
             v-if="quizStore.status === 'inProgress'"
